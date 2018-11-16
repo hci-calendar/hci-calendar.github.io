@@ -5,5 +5,3 @@ permalink: /toppage/
 ---
 
 [HCI Calendar](/hci/)
-
-<!--[AI Calendar](/ai/)-->

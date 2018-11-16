@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HCI Conference Calendar
+title: HCI Calendar
 permalink: /
 types: "Paper,Poster,Demo,Conference"
 ---
