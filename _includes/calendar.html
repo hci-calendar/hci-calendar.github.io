@@ -1,0 +1,27 @@
+{% assign type_list = include.types | split: "," %}
+
+<div class="title-container">
+  <span class="section-title">
+    {{page.title}}
+  </span>
+</div>
+
+{% include month.html data=include.data type_list = type_list %}
+
+<div style="clear:both;"></div>
+
+<div class="round-spacer"><div></div></div>
+
+<div class="title-container">
+  <span class="section-title">
+    Conference
+  </span>
+</div>
+
+{% include conference.html data=include.data %}
+
+<div style="clear:both;"></div>
+
+<div class="round-spacer"><div></div></div>
+
+<div style="clear:both;"></div>

@@ -1,0 +1,25 @@
+# SYSTEM
+url: "https://masaogata.github.io"
+baseurl: "/hci-calendar" # the subpath of your site, e.g. /blog
+
+# SITE
+title: HCI Calendar
+copyright: "Copyright (C) HCI Calendar. All rights reserved."
+
+# ALL Calendar Links
+links:
+  - HCI
+  - AI
+
+# SEO
+google_analytics: UA-80597905-1
+
+# INCLUDE PAGES
+include: ['_pages']
+
+# SETTING
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from

@@ -1,0 +1,27 @@
+{%- assign month_list = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+
+<div class="month">
+{%- for target_type in include.type_list -%}
+  {%- assign _type = target_type | downcase -%}
+  {%- if target_type != "Conference" -%}
+  <h1>{{target_type}} Submission</h1>
+  {%- else -%}
+  <h1>{{target_type}}</h1>
+  {%- endif -%}
+  <ul class="table">
+  {%- for target_month in month_list -%}
+  {%- assign nowmonth = "now" | date: "%b" -%}
+  {%- if target_month == nowmonth -%}
+    <li class="currentmonth">
+  {%- else -%}
+    <li>
+  {%- endif -%}
+    <h3>{{target_month | date: "%B"}}</h3>
+    <ul>
+    {%- include month-list.html data=include.data target_month=target_month target_type=_type -%}
+    </ul>
+    </li>
+  {%- endfor -%}
+  </ul>
+{%- endfor -%}
+</div>

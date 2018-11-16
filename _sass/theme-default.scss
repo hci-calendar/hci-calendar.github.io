@@ -1,0 +1,155 @@
+@import "normalize";
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: $body-text-color;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  margin: 0px;
+
+  @include large {
+    max-width: $large-container-width;
+    padding: 0rem;
+    margin: 0 auto;
+    font-size: 0.95rem;
+  }
+  @include medium {
+    padding: 0rem;
+    margin: 0 auto;
+    font-size: 0.95rem;
+  }
+  @include small {
+    max-width: $medium-container-width;
+    padding: 0rem;
+    margin: 0 auto;
+    font-size: 0.95rem;
+  }
+}
+
+a {
+  color: $body-link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.page-header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+
+  .page-title {
+    text-align: left;
+    font-size: 1em;
+    display: block;
+    font-weight: bold;
+    margin: 0.3em 0.3em;
+  }
+
+  .header-links {
+    margin: 0.3em 0;
+    display: block;
+  }
+
+  .header-links a {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 0 0.2em;
+  }
+
+  .header-credit {
+    color: #999;
+    font-size: 0.8em;
+    margin: 0.3em 0.2em;
+    display: block;
+    a {
+      color: #999;
+      text-decoration: underline;
+    }
+  }
+}
+
+.main-content {
+  word-wrap: break-word;
+
+  .text-area {
+    padding: 1em;
+
+    h1 {clear: both;}
+    h2 {clear: both;}
+    h3 {clear: both;}
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  img {
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: $section-headings-color;
+  }
+}
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+
+  @include large {
+    font-size: 1rem;
+  }
+
+  @include medium {
+    font-size: 1rem;
+  }
+
+  @include small {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: $blockquote-text-color;
+}
+
+@import "calendar";

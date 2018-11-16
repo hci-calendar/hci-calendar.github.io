@@ -1,0 +1,410 @@
+- name: CHI
+  long: ACM CHI Conference on Human Factors in Computing Systems
+  years:
+  -
+    year: 2019
+    date: "2019-05-04"
+    url : https://chi2019.acm.org/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-09-14"
+    -
+      type: alt.CHI
+      date: "2019-01-07"
+    -
+      type: LBW (Poster)
+      date: "2019-01-07"
+    -
+      type: Demo
+      date: "2019-01-07"
+  -
+    year: 2018
+    date: "2018-04-21"
+    url : https://chi2018.acm.org/
+    info: 25.7%
+    submissions:
+    -
+      type: Paper
+      date: "2017-09-14"
+    -
+      type: alt.CHI
+      date: "2018-01-15"
+    -
+      type: LBW (Poster)
+      date: "2018-01-15"
+    -
+      type: Demo
+      date: "2018-01-15"
+
+- name: UIST
+  long: ACM Symposium on User Interface Software and Technology
+  years:
+  -
+    year: 2019
+    date: "2019-10-20"
+    url : https://uist.acm.org/uist2019/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2019-04-05"
+    -
+      type: Poster
+      date: "TBD"
+    -
+      type: Demo
+      date: "TBD"
+  -
+    year: 2018
+    date: "2018-10-14"
+    url : https://uist.acm.org/uist2018/
+    info: 21.3%
+    submissions:
+    -
+      type: Paper
+      date: "2018-04-05"
+    -
+      type: Poster
+      date: "2018-07-11"
+    -
+      type: Demo
+      date: "2018-07-11"
+  -
+    year: 2017
+    date: "2017-10-22"
+    url : https://uist.acm.org/uist2017/
+    info: 22.5%
+    submissions:
+    -
+      type: Paper
+      date: "2017-04-04"
+    -
+      type: Poster
+      date: "2017-07-12"
+    -
+      type: Demo
+      date: "2017-07-12"
+
+- name: SIGGRAPH
+  long: International Conference and Exhibition on Computer Graphics and Interactive Techniques
+  years:
+  -
+    year: 2019
+    date: "2019-07-28"
+    url : https://s2019.siggraph.org/
+    info: --%
+    submissions:
+    -
+      type: Technical Paper
+      date: "2019-01-13"
+    -
+      type: E-Tech (Demo)
+      date: "2019-02-12"
+    -
+      type: Poster
+      date: "2019-04-09"
+  -
+    year: 2018
+    date: "2018-08-12"
+    url : https://s2018.siggraph.org/
+    info: --%
+    submissions:
+    -
+      type: Technical Paper
+      date: "2018-01-23"
+    -
+      type: E-Tech (Demo)
+      date: "2018-02-13"
+    -
+      type: Poster
+      date: "2018-05-10"
+
+- name: CSCW
+  long: ACM Conference on Computer-Supported Cooperative Work and Social Computing
+  years:
+  -
+    year: 2018
+    date: "2018-11-03"
+    url : http://cscw.acm.org/2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-04-16"
+    -
+      type: Poster
+      date: "2018-07-01"
+
+
+- name: MobileHCI
+  long: International Conference on Human-Computer Interaction with Mobile Devices and Services
+  years:
+  -
+    year: 2018
+    date: "2018-09-03"
+    url : https://mobilehci.acm.org/2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-02-09"
+    -
+      type: Poster
+      date: "2018-05-16"
+    -
+      type: Demo
+      date: "2018-05-16"
+
+- name: IUI
+  long: ACM International Conference on Intelligent User Interfaces
+  years:
+  -
+    year: 2019
+    date: "2019-03-17"
+    url : http://iui.acm.org/2019/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-10-01"
+    -
+      type: Poster
+      date: "2018-12-21"
+    -
+      type: Demo
+      date: "2018-12-21"
+  -
+    year: 2018
+    date: "2018-03-07"
+    url : http://iui.acm.org/2018/
+    info: 23%
+    submissions:
+    -
+      type: Paper
+      date: "2017-10-01"
+    -
+      type: Poster
+      date: "2017-12-22"
+    -
+      type: Demo
+      date: "2017-12-22"
+
+- name: AH
+  long: Augmented Human International Conference
+  years:
+  -
+    year: 2019
+    date: "2019-03-11"
+    url : https://www.augmented-human.com/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2019-01-01"
+    -
+      type: Poster
+      date: "2019-01-01"
+    -
+      type: Demo
+      date: "2019-01-01"
+  -
+    year: 2018
+    date: "2018-02-07"
+    url : www.sigah.org/AH2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2017-11-01"
+    -
+      type: Poster
+      date: "2017-11-01"
+    -
+      type: Demo
+      date: "2017-11-01"
+
+- name: VRST
+  long: ACM Symposium on Virtual Reality Software and Technology
+  years:
+  -
+    year: 2018
+    date: "2018-11-28"
+    url : https://vrst.acm.org/vrst2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-08-15"
+    -
+      type: Poster
+      date: "2018-09-01"
+    -
+      type: Demo
+      date: "2018-09-01"
+
+
+- name: ISS
+  long: ACM International Conference on Interactive Surfaces and Spaces
+  years:
+  -
+    year: 2018
+    date: "2018-11-25"
+    url : http://iss.acm.org/2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-06-29"
+    -
+      type: Poster
+      date: "2018-08-03"
+    -
+      type: Demo
+      date: "2018-08-24"
+  -
+    year: 2017
+    date: "2017-10-17"
+    url : http://iss2017.acm.org/
+    info: 27%
+    submissions:
+    -
+      type: Paper
+      date: "2017-06-28"
+    -
+      type: Poster
+      date: "2017-07-19"
+    -
+      type: Demo
+      date: "2017-07-19"
+
+- name: DIS
+  long: ACM SIGCHI Conference on Designing Interactive Systems
+  years:
+  -
+    year: 2018
+    date: "2018-06-09"
+    url : http://dis2018.org/
+    info: 22%
+    submissions:
+    -
+      type: Paper
+      date: "2018-01-08"
+    -
+      type: PWiP (Poster)
+      date: "2018-03-12"
+    -
+      type: Demo
+      date: "2018-03-12"
+
+- name: ISWC
+  long: International Symposium on Wearable Computers
+  years:
+  -
+    year: 2018
+    date: "2018-10-08"
+    url : http://iswc.net/iswc18/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-05-18"
+    -
+      type: Poster
+      date: "2018-07-15"
+    -
+      type: Demo
+      date: "2018-07-15"
+
+- name: HAI
+  long: International Conference on Human-Agent Interaction
+  years:
+  -
+    year: 2018
+    date: "2018-12-15"
+    url : http://hai-conference.net/hai2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-06-20"
+    -
+      type: Poster
+      date: "2018-10-11"
+    -
+      type: Demo
+      date: "2018-10-11"
+
+- name: TEI
+  long: International Conference on Tangible, Embedded and Embodied Interactions
+  years:
+  -
+    year: 2019
+    date: "2019-03-17"
+    url : https://tei.acm.org/2019/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-08-08"
+    -
+      type: WiP (Poster)
+      date: "2018-11-14"
+    -
+      type: Art Track (Demo)
+      date: "2018-11-07"
+  -
+    year: 2018
+    date: "2018-03-18"
+    url : https://tei.acm.org/2018/
+    info: 28%
+    submissions:
+    -
+      type: Paper
+      date: "2017-08-02"
+    -
+      type: WiP (Poster)
+      date: "2017-11-04"
+    -
+      type: Art Track (Demo)
+      date: "2017-11-04"
+
+- name: ACMMM
+  long: ACM International Conference on Multimedia
+  years:
+  -
+    year: 2018
+    date: "2018-10-22"
+    url : http://www.acmmm.org/2018/
+    info: --%
+    submissions:
+    -
+      type: Paper
+      date: "2018-04-08"
+    -
+      type: Technical Demo
+      date: "2018-05-20"
+
+
+#   IDC, SUI, HRI, TVX, Ubicomp
+
+
+# - name: TEMPLATE
+#   long: Full Conference Name
+#   years:
+#   -
+#     year: 2019
+#     date: "2019-10-01"
+#     url : www.conference.org/conf2019/
+#     info: --%
+#     submissions:
+#     -
+#       type: Paper
+#       date: "2019-01-01"
+#     -
+#       type: Poster
+#       date: "2019-01-01"
+#     -
+#       type: Demo
+#       date: "2019-01-01"

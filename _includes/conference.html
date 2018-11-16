@@ -1,0 +1,17 @@
+{%- for item in include.data -%}
+<div class="conference">
+<a name="{{item.name}}"></a>
+<h1>{{item.name}}</h1>
+<p class="longname">{{item.long}}</p>
+
+{%- for year in item.years -%}
+<p class="yearitem">
+  <span class="year">{{item.name}} {{year.year}}</span>
+   <a class="link" href="{{year.url}}">{{year.url}}</a>
+   <br>
+  <span class="yearinfo">{{year.info}}</span>
+</p>
+{%- include progress.html year=year -%}
+{%- endfor -%}
+</div>
+{%- endfor -%}

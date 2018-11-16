@@ -1,0 +1,57 @@
+{%- assign year = include.year -%}
+<div class="progress">
+  <ul>
+    {%- for item in year.submissions -%}
+    {%- assign trydateparse = item.date | date: "%-m" -%}
+    <li>
+      <ul>
+        <li class="title">{{item.type}}</li>
+        <li class="date">
+          {%- if trydateparse != item.date -%} <!--valid format-->
+          <div class="progressbar jsdateupdate" deadline="{{item.date}}" conference="{{year.date}}">
+            <div class="colored"></div>
+            <div class="darken"></div>
+            <div class="dealine">
+              <p>{{item.date | date: "%d %b %y"}}</p>
+            </div>
+          </div>
+          {%- else -%} <!--text or invalid format-->
+          <div class="progressbar jsdateupdate" conference="{{year.date}}">
+            <div class="colored" style="width:0%;"></div>
+            <div class="darken"></div>
+            <div class="dealine" style="width:100%;">
+              <p>{{item.date}}</p>
+            </div>
+          </div>
+          {%- endif -%}
+        </li>
+      </ul>
+    </li>
+    {%- endfor -%}
+    {%- assign trydateparse = year.date | date: "%-m" -%}
+    <li>
+      <ul>
+        <li class="title title-conference">Conference</li>
+        <li class="date">
+          {%- if trydateparse != year.date -%} <!--valid format-->
+          <div class="progressbar jsdateupdate" deadline="{{year.date}}" conference="{{year.date}}">
+            <div class="colored"></div>
+            <div class="darken"></div>
+            <div class="dealine">
+              <p>{{year.date | date: "%d %b %y"}}</p>
+            </div>
+          </div>
+          {%- else -%} <!--text or invalid format-->
+          <div class="progressbar jsdateupdate" conference="{{year.date}}">
+            <div class="colored" style="width:0%;"></div>
+            <div class="darken"></div>
+            <div class="dealine" style="width:100%;">
+              <p>{{year.date}}</p>
+            </div>
+          </div>
+          {%- endif -%}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
