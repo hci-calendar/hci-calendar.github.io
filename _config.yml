@@ -1,6 +1,6 @@
 # SYSTEM
-url: "https://masaogata.github.io"
-baseurl: "/hci-calendar" # the subpath of your site, e.g. /blog
+url: "https://hci-calendar.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # SITE
 title: HCI Calendar
