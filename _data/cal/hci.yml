@@ -121,6 +121,28 @@
       type: Poster
       date: "2018-05-10"
 
+- name: SIGGRAPH Asia
+  long: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+  years:
+  -
+    year: 2018
+    date: "2018-12-04"
+    url : https://sa2018.siggraph.org/en/
+    info: --%
+    submissions:
+    -
+      type: Technical Paper
+      date: "2018-06-05"
+    -
+      type: E-Tech (Demo)
+      date: "2018-07-01"
+    -
+      type: Technical Brief (Short Paper)
+      date: "2018-08-26"
+    -
+      type: Poster
+      date: "2018-08-25"
+
 - name: CSCW
   long: ACM Conference on Computer-Supported Cooperative Work and Social Computing
   years:
