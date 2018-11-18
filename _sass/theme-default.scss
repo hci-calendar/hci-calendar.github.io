@@ -63,34 +63,18 @@ a {
 }
 
 .page-header {
-  text-align: center;
+  color: #999;
+  text-align: left;
   border-bottom: 1px solid #ddd;
 
-  .page-title {
-    text-align: left;
-    font-size: 1em;
-    display: block;
-    font-weight: bold;
-    margin: 0.3em 0.3em;
-  }
-
-  .header-links {
-    margin: 0.3em 0;
-    display: block;
-  }
-
-  .header-links a {
-    font-weight: bold;
-    font-size: 0.9em;
-    margin: 0 0.2em;
+  .header-container {
+    padding: 0.3em 1em;
+    vertical-align: middle;
   }
 
   .header-credit {
-    color: #999;
     font-size: 0.8em;
     margin: 0.3em 0.2em;
-    display: block;
-    text-align: left;;
     a {
       color: #999;
       text-decoration: underline;

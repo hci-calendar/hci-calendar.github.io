@@ -1,0 +1,135 @@
+- name: IEEE VR
+  long: IEEE Conference on Virtual Reality and 3D User Interfaces
+  years:
+  -
+    year: 2019
+    date: "2019-03-23"
+    url : http://ieeevr.org/2019/
+    info: Osaka, Japan
+    submissions:
+    -
+      type: Journal Paper
+      date: "2018-09-03"
+    -
+      type: Conference Paper
+      date: "2018-11-22"
+    -
+      type: Demo
+      date: "2018-11-19"
+    -
+      type: Poster
+      date: "2019-01-16"
+
+- name: VRST
+  long: ACM Symposium on Virtual Reality Software and Technology
+  years:
+  -
+    year: 2018
+    date: "2018-11-28"
+    url : https://vrst.acm.org/vrst2018/
+    info: Tokyo, Japan
+    submissions:
+    -
+      type: Paper
+      date: "2018-08-15"
+    -
+      type: Poster
+      date: "2018-09-01"
+    -
+      type: Demo
+      date: "2018-09-01"
+
+- name: WHC
+  long: IEEE World Haptics Conference
+  years:
+  -
+    year: 2019
+    date: "2019-07-09"
+    url : http://www.worldhaptics2019.org/
+    info: Tokyo, Japan
+    submissions:
+    -
+      type: Technical Paper
+      date: "2019-01-25"
+    -
+      type: WIP (Poster)
+      date: "TBD"
+    -
+      type: Demo
+      date: "TBD"
+
+- name: Haptics Symposium
+  long: IEEE Haptics Symposium
+  note: Joint with WHC in odd-numbered years
+  years:
+  -
+    year: 2020
+    date: "2020-03-28"
+    url : http://hapticssymposium.org/haptics2020/
+    info: Washington, DC, USA
+    submissions:
+    -
+      type: Paper
+      date: "TBD"
+    -
+      type: Poster
+      date: "TBD"
+    -
+      type: Demo
+      date: "TBD"
+  -
+    year: 2018
+    date: "2018-03-25"
+    url : http://2018.hapticssymposium.org/
+    info: SF, CA, USA
+    submissions:
+    -
+      type: Paper
+      date: "2017-10-22"
+    -
+      type: ToH Poster
+      date: "2018-01-12"
+    -
+      type: WIP Poster
+      date: "2018-01-26"
+    -
+      type: Demo
+      date: "2018-01-26"
+
+- name: Eurohaptics
+  long: Eurohaptics Conference
+  years:
+  -
+    year: 2018
+    date: "2018-06-13"
+    url : https://eurohaptics2018.org/
+    info: Pisa, Italy
+    submissions:
+    -
+      type: Paper
+      date: "2018-01-22"
+    -
+      type: WIP (Poster)
+      date: "2018-03-15"
+    -
+      type: Demo
+      date: "2018-04-08"
+
+# - name: TEMPLATE
+#   long: Full Conference Name
+#   years:
+#   -
+#     year: 2019
+#     date: "2019-10-01"
+#     url : www.conference.org/conf2019/
+#     info: --%
+#     submissions:
+#     -
+#       type: Paper
+#       date: "2019-01-01"
+#     -
+#       type: Poster
+#       date: "2019-01-01"
+#     -
+#       type: Demo
+#       date: "2019-01-01"

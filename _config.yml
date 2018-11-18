@@ -8,8 +8,12 @@ copyright: "Copyright (C) HCI Calendar. All rights reserved."
 
 # ALL Calendar Links
 links:
-  - HCI
-  - AI
+  -
+    name: HCI
+    link: /
+  -
+    name: VR
+    link: /vr/
 
 # SEO
 google_analytics: UA-80597905-1
