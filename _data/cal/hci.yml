@@ -5,7 +5,7 @@
     year: 2019
     date: "2019-05-04"
     url : https://chi2019.acm.org/
-    info: --%
+    info: Glasgow, UK
     submissions:
     -
       type: Paper
@@ -23,7 +23,7 @@
     year: 2018
     date: "2018-04-21"
     url : https://chi2018.acm.org/
-    info: 25.7%
+    info: 25.7% - Montreal, Canada
     submissions:
     -
       type: Paper
@@ -45,7 +45,7 @@
     year: 2019
     date: "2019-10-20"
     url : https://uist.acm.org/uist2019/
-    info: --%
+    info: New Orleans, USA
     submissions:
     -
       type: Paper
@@ -60,7 +60,7 @@
     year: 2018
     date: "2018-10-14"
     url : https://uist.acm.org/uist2018/
-    info: 21.3%
+    info: 21.3% - Berlin, Germany
     submissions:
     -
       type: Paper
@@ -75,7 +75,7 @@
     year: 2017
     date: "2017-10-22"
     url : https://uist.acm.org/uist2017/
-    info: 22.5%
+    info: 22.5% - Quebec City, Canada
     submissions:
     -
       type: Paper
@@ -94,7 +94,7 @@
     year: 2019
     date: "2019-07-28"
     url : https://s2019.siggraph.org/
-    info: --%
+    info: LA, USA
     submissions:
     -
       type: Technical Paper
@@ -109,7 +109,7 @@
     year: 2018
     date: "2018-08-12"
     url : https://s2018.siggraph.org/
-    info: --%
+    info: --% - Vancouver, Canada
     submissions:
     -
       type: Technical Paper
@@ -128,7 +128,7 @@
     year: 2018
     date: "2018-12-04"
     url : https://sa2018.siggraph.org/en/
-    info: --%
+    info: Tokyo, Japan
     submissions:
     -
       type: Technical Paper
@@ -150,7 +150,7 @@
     year: 2018
     date: "2018-11-03"
     url : http://cscw.acm.org/2018/
-    info: --%
+    info: --% - NYC, USA
     submissions:
     -
       type: Paper
@@ -159,7 +159,6 @@
       type: Poster
       date: "2018-07-01"
 
-
 - name: MobileHCI
   long: International Conference on Human-Computer Interaction with Mobile Devices and Services
   years:
@@ -167,7 +166,7 @@
     year: 2018
     date: "2018-09-03"
     url : https://mobilehci.acm.org/2018/
-    info: --%
+    info: --% - Barcelona, Spain
     submissions:
     -
       type: Paper
@@ -186,7 +185,7 @@
     year: 2019
     date: "2019-03-17"
     url : http://iui.acm.org/2019/
-    info: --%
+    info: LA, USA
     submissions:
     -
       type: Paper
@@ -201,7 +200,7 @@
     year: 2018
     date: "2018-03-07"
     url : http://iui.acm.org/2018/
-    info: 23%
+    info: 23% - Tokyo, Japan
     submissions:
     -
       type: Paper
@@ -220,7 +219,7 @@
     year: 2019
     date: "2019-03-11"
     url : https://www.augmented-human.com/
-    info: --%
+    info: Reims Champagne-Ardenne, France
     submissions:
     -
       type: Paper
@@ -234,8 +233,8 @@
   -
     year: 2018
     date: "2018-02-07"
-    url : www.sigah.org/AH2018/
-    info: --%
+    url : http://www.sigah.org/AH2018/
+    info: --% - Seoul, Korea
     submissions:
     -
       type: Paper
@@ -255,7 +254,7 @@
     year: 2018
     date: "2018-11-25"
     url : http://iss.acm.org/2018/
-    info: --%
+    info: --% - Tokyo, Japan
     submissions:
     -
       type: Paper
@@ -270,7 +269,7 @@
     year: 2017
     date: "2017-10-17"
     url : http://iss2017.acm.org/
-    info: 27%
+    info: 27% - Brighton, UK
     submissions:
     -
       type: Paper
@@ -289,7 +288,7 @@
     year: 2018
     date: "2018-06-09"
     url : http://dis2018.org/
-    info: 22%
+    info: 22% - Hong Kong, China
     submissions:
     -
       type: Paper
@@ -346,7 +345,7 @@
     year: 2019
     date: "2019-03-17"
     url : https://tei.acm.org/2019/
-    info: --%
+    info: Tempe, AZ, USA
     submissions:
     -
       type: Paper
@@ -361,7 +360,7 @@
     year: 2018
     date: "2018-03-18"
     url : https://tei.acm.org/2018/
-    info: 28%
+    info: 28% - Stockholm, Sweden
     submissions:
     -
       type: Paper
@@ -380,7 +379,7 @@
     year: 2018
     date: "2018-10-22"
     url : http://www.acmmm.org/2018/
-    info: --%
+    info: --% - Seoul, Korea
     submissions:
     -
       type: Paper
