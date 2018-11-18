@@ -1,9 +1,3 @@
-<span class="links">
-  {%- for item in site.links -%}
-  <a href="{{site.url}}{{item.link}}">{{item.name}}</a>
-  {%- endfor -%}
-</span>
-
 {% assign type_list = include.types | split: "," %}
 
 <div class="title-container">

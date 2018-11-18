@@ -1,26 +1,15 @@
 <section class="page-header">
   <div class="container header-container">
-    {% comment %}
-    <span class="page-title">
-      {{site.title}}
-    </span>
-    {% if site.links %}
-    <span class="header-links">
-      {% for item in site.links %}
-      <a href="/{{item}}/">{{item}}</a>
-      {% endfor %}
-    </span>
-    {% endif %}
-    {% endcomment %}
-
     <span class="header-credit">
-      <a class="github-button" href="https://github.com/hci-calendar" aria-label="Follow @hci-calendar on GitHub">Follow @hci-calendar</a>
-      &nbsp;
       <a class="github-button" href="https://github.com/hci-calendar/hci-calendar.github.io" data-show-count="true" aria-label="Star hci-calendar/hci-calendar.github.io on GitHub">Star</a>
       <script async defer src="https://buttons.github.io/buttons.js"></script>
       &nbsp;
       <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+    </span>
+    <span class="header-links">
+      {%- for item in site.links -%}
+      <a href="{{site.url}}{{item.link}}">{{item.name}}</a>
+      {%- endfor -%}
     </span>
   </div>
 </section>

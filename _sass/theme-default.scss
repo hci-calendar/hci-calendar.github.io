@@ -69,15 +69,25 @@ a {
 
   .header-container {
     padding: 0.3em 1em;
-    vertical-align: middle;
+    display: table;
   }
-
   .header-credit {
-    font-size: 0.8em;
     margin: 0.3em 0.2em;
+    display: table-cell;
     a {
       color: #999;
       text-decoration: underline;
+    }
+  }
+  .header-links {
+    padding: 0.1em;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+    display: table-cell;
+    a {
+      margin: 0 0.3em;
+      color: #999;
     }
   }
 }
