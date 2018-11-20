@@ -17,5 +17,12 @@ It's very welcome to commit new information to this calendar.
 
 ### If not familiar with Git
 
-- [Send issue](https://github.com/hci-calendar/hci-calendar.github.io/issues/3)
+- Comment on [this issue #3](https://github.com/hci-calendar/hci-calendar.github.io/issues/3)
 - Ask me on [Twitter](https://twitter.com/masaogata)
+
+
+## Editing
+
+You can add new functions by editing `_includes` directory in accordance of [Jekyll](https://jekyllrb.com/) format.
+
+CSS files are placed at `_sass` directory.
