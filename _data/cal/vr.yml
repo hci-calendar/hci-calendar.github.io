@@ -57,6 +57,21 @@
     -
       type: Demo
       date: "2019-08-15"
+  -
+    year: 2018
+    date: "2018-11-28"
+    url : https://vrst.acm.org/vrst2018/
+    info: Tokyo, Japan
+    submissions:
+    -
+      type: Paper
+      date: "2018-08-15"
+    -
+      type: Poster
+      date: "2018-09-01"
+    -
+      type: Demo
+      date: "2018-09-01"
 
 - name: WHC
   long: IEEE World Haptics Conference
