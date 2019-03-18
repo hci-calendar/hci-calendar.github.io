@@ -52,10 +52,10 @@
       date: "2019-04-05"
     -
       type: Poster
-      date: "TBD"
+      date: "2019-07-10"
     -
       type: Demo
-      date: "TBD"
+      date: "2019-07-10"
   -
     year: 2018
     date: "2018-10-14"
@@ -125,6 +125,21 @@
   long: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
   years:
   -
+    year: 2019
+    date: "2019-11-17"
+    url : https://sa2019.siggraph.org/
+    info: Brisbane, Australia
+    submissions:
+    -
+      type: Technical Paper
+      date: "2019-05-20"
+    -
+      type: E-Tech (Demo)
+      date: "2019-06-17"
+    -
+      type: Technical Brief and Poster
+      date: "2019-08-12"
+  -
     year: 2018
     date: "2018-12-04"
     url : https://sa2018.siggraph.org/en/
@@ -147,6 +162,21 @@
   long: ACM Conference on Computer-Supported Cooperative Work and Social Computing
   years:
   -
+    year: 2019
+    date: "2019-11-09"
+    url : http://cscw.acm.org/2019/
+    info: --% - Austin, Texas
+    submissions:
+    -
+      type: Paper
+      date: "2019-03-28"
+    -
+      type: Poster
+      date: "2019-06-29"
+    -
+      type: Demo
+      date: "2019-06-17"
+  -
     year: 2018
     date: "2018-11-03"
     url : http://cscw.acm.org/2018/
@@ -162,6 +192,21 @@
 - name: MobileHCI
   long: International Conference on Human-Computer Interaction with Mobile Devices and Services
   years:
+  -
+    year: 2019
+    date: "2019-10-01"
+    url : https://mobilehci.acm.org/2019/
+    info: --% - Taipei, Taiwan
+    submissions:
+    -
+      type: Paper
+      date: "2019-02-01"
+    -
+      type: Poster (LBW)
+      date: "2019-05-24"
+    -
+      type: Demo
+      date: "2019-05-24"
   -
     year: 2018
     date: "2018-09-03"
@@ -304,10 +349,19 @@
   long: International Symposium on Wearable Computers
   years:
   -
+    year: 2019
+    date: "2019-09-09"
+    url : http://iswc.net/iswc19/
+    info: --% - London, UK
+    submissions:
+    -
+      type: Paper
+      date: "2019-04-26"
+  -
     year: 2018
     date: "2018-10-08"
     url : http://iswc.net/iswc18/
-    info: --%
+    info: --% - Singapore
     submissions:
     -
       type: Paper
@@ -375,6 +429,18 @@
 - name: ACMMM
   long: ACM International Conference on Multimedia
   years:
+  -
+    year: 2019
+    date: "2019-10-21"
+    url : http://www.acmmm.org/2019/
+    info: --% - Nice, France
+    submissions:
+    -
+      type: Paper
+      date: "2019-04-01"
+    -
+      type: Demo and Video
+      date: "2019-05-20"
   -
     year: 2018
     date: "2018-10-22"
