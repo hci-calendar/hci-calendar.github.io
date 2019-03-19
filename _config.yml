@@ -4,7 +4,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # SITE
 title: HCI Calendar
-description: Calendar of paper submission and conference date for HCI and related conferences
+description: Calendar of submission deadlines and conference dates for HCI and related conferences
+message: Welcome to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>
 keywords: >-
   HCI Calendar,
   HCI, Human Computer Interaction,
