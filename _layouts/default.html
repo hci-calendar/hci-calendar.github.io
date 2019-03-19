@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="{{ site.keywords }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | absolute_url }}">
-    <script src="{{'/assets/js/jquery-3.3.1.slim.min.js' | absolute_url }}"></script>
-    <script src="{{'/assets/js/calendar.js' | absolute_url }}"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | absolute_url }}">
+  <script src="{{'/assets/js/jquery-3.3.1.slim.min.js' | absolute_url }}"></script>
+  <script src="{{'/assets/js/calendar.js' | absolute_url }}"></script>
+</head>
+<body>
 
 {%- include header.html -%}
 
-<section class="main-content container">
-  <div class="text-area">
-    {%- if page.pre-include -%}
-      {%- include {{page.pre-include}} -%}
-    {%- endif -%}
-        {{ content }}
-    {%- if page.post-include -%}
-      {%- include {{page.post-include}} -%}
-    {%- endif -%}
-  </div>
+{%- if page.pre-include -%}
+  {%- include {{page.pre-include}} -%}
+{%- endif -%}
+
+{{ content }}
+
+{%- if page.post-include -%}
+  {%- include {{page.post-include}} -%}
+{%- endif -%}
+
+<section class="section section-footer">
   <footer class="site-footer">
-    <p class="site-footer-credits">
+    <p>
       {{ site.copyright }}
     </p>
   </footer>

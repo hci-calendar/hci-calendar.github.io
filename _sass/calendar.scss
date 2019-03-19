@@ -1,37 +1,24 @@
-.section-title {
-  text-align: center;
-  font-size: 2.4em;
-  display: block;
-  font-weight: bold;
-}
-
 .month {
   list-style-type: none;
   margin: 0; padding: 0;
 
   h1 {
     font-size: 1.3em;
-    background: #e0e8f8; //#1f6299;
-    color: #555;
-    padding: 0.3em;
+    padding: 0.6em;
     text-align: center;
     margin-bottom: 0;
     font-weight: bold;
-    border: 3px solid white;
   }
-
   h3 {
     font-size: 0.75em;
     color: crimson;
-    font-weight: bold;
-
+    font-weight: normal;
     margin: 0;
     padding: 3px 0;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
-
   ul.table {
     list-style-type: none;
     margin: 0; padding: 0;
@@ -39,31 +26,32 @@
     flex-wrap:wrap;
     width:100%;
   }
-
   ul.table li {
     list-style: none;
-    padding: 2px;
-    border: 2px solid white;
+    padding: 2px 6px 2px 6px;
     width: 25%;
-    background: #eee;
+    background: rgba(0, 0, 0, 0.06);
+    margin-bottom: 4px;
   }
-  .currentmonth {
-    background: #ddd !important;
+  ul.table li.currentmonth {
+    background: rgba(0, 0, 0, 0.09);
   }
   ul.table li ul {
     list-style-type: none;
     margin: 0; padding: 0;
     width: 100%;
   }
-
   ul.table li ul li {
-      border: 1px solid #ccc;
-      background: #fff;
-      display: list-item;
-      width: 100%;
-      padding: 1px;
-      margin-top: 2px;
-      text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.8);
+    display: list-item;
+    width: 100%;
+    padding: 1px;
+    margin-top: 2px;
+    text-align: center;
+  }
+  ul.table li ul li:hover {
+    background: rgba(255, 255, 255, 1.0);
   }
   span {
     margin: 0; padding: 0;
@@ -75,19 +63,6 @@
   }
   .date {
   font-size: 0.7em;
-  }
-}
-
-.round-spacer {
-  display: block;
-  width: 100%;
-  text-align: center;
-  padding-top: 3em;
-  div {
-    width: 5em; height: 5em;
-    background: #eee;
-    margin: auto;
-    border-radius: 50%;
   }
 }
 
@@ -139,7 +114,9 @@
     padding: 0;
   }
   ul li {
-    margin: 0; padding: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.04);
   }
   ul li ul {
     list-style-type: none;
@@ -147,37 +124,31 @@
     display:flex;
   }
   ul li ul li {
-    border: 2px solid white;
+  margin: 0; padding: 0;
   }
   .title {
-    background: #1f6299;
-    color: white;
-    font-weight: bold;
     width: 30%;
     float: left;
+    text-align: center;
     padding: 3px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
-  .title-conference {
-    background: #555 !important;
-  }
   .date {
-    background: #eee;
     width: 70%;
     text-align: right;
   }
 }
 
 .progressbar {
-  background: #eee;
+  background: transparent;
   display: block;
   height: 100%;
   position: relative;
 
   .colored {
-    background: burlywood;
+    background: $progress-bar-color;
     float: left;
     height: 100%;
   }
@@ -187,7 +158,7 @@
     background: black;
     float: left;
     height: 100%;
-    opacity: 0.25;
+    opacity: 0.15;
   }
   .dealine {
     position: absolute;
@@ -198,8 +169,9 @@
     text-align: right;
 
     p {
-      color: black;
+      color: rgba(0, 0, 0, 0.8);
       font-weight: bold;
+      font-size: small;
       padding: 3px;
       text-overflow: ellipsis;
       overflow: hidden;
