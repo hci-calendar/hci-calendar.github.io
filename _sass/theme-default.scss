@@ -51,9 +51,19 @@ a {
 .section-title {
   text-align: center;
   background: $background-color;
-  h1 {font-size: 3rem; padding: 0.5em;}
-  ul {list-style-type: none; padding: 0 15% 0 15%;}
-  li {display: inline-block; margin: 0 0.5em 0 0.5em; white-space: nowrap;}
+  h1 {
+    font-size: 3rem;
+    padding: 0.5em;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0 15% 0 15%;
+  }
+  li {
+    display: inline-block;
+    margin: 0.1em 0.5em 0.1em 0.5em;
+    white-space: nowrap;
+  }
   p {font-size: small;}
 }
 .section-month {
@@ -88,11 +98,10 @@ a {
 .container-header {
   padding: 0.3em 1em;
   display: table;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid $underline-border-color;
   a {
     text-decoration: none;
     margin: 0 0.3em;
-    color: #333;
   }
   .header-links {
     padding: 0.1em;
@@ -126,7 +135,6 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
-    color: $section-headings-color;
   }
 }
 

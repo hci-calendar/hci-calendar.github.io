@@ -1,20 +1,17 @@
 .month {
   list-style-type: none;
   margin: 0; padding: 0;
-
+  a {text-decoration: none;}
   h1 {
-    font-size: 1.3em;
-    padding: 0.6em;
+    font-size: large;
     text-align: center;
-    margin-bottom: 0;
-    font-weight: bold;
+    font-weight: normal;
   }
   h3 {
-    font-size: 0.75em;
-    color: crimson;
+    font-size: small;
+    color: $highlight-color;
     font-weight: normal;
-    margin: 0;
-    padding: 3px 0;
+    margin: 0; padding: 0; padding-bottom: 2px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -28,7 +25,7 @@
   }
   ul.table li {
     list-style: none;
-    padding: 2px 6px 2px 6px;
+    padding: 1px 6px 1px 6px;
     width: 25%;
     background: rgba(0, 0, 0, 0.06);
     margin-bottom: 4px;
@@ -46,8 +43,6 @@
     background: rgba(255, 255, 255, 0.8);
     display: list-item;
     width: 100%;
-    padding: 1px;
-    margin-top: 2px;
     text-align: center;
   }
   ul.table li ul li:hover {
@@ -58,11 +53,11 @@
     display: block;
   }
   .name {
-    font-size: 1em;
+    font-size: normal;
     font-weight: bold;
   }
   .date {
-  font-size: 0.7em;
+  font-size: x-small;
   }
 }
 
@@ -74,31 +69,31 @@
   margin-bottom: 5em;
 
   h1 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $underline-border-color;
     margin-bottom: 0.1em;
   }
   p.longname {
     padding: 0.1em 0em;
     margin: 0;
-    font-size: 0.9em;
+    font-size: small;
   }
   p.yearitem {
-    margin: 0 10%;
+    margin: 0 $progress-side-margin;
     @include small {
       margin: 0 0%;
     }
     padding: 1em 0 0.5em 0;
   }
   span.year {
-  font-size: 1.2em;
+  font-size: large;
   font-weight: bold;
   margin-right: 0.3em;
   }
   a.link {
-    font-size: 0.9em;
+    font-size: small;
   }
   span.yearinfo {
-    font-size: 0.9em;
+    font-size: small;
   }
 }
 
@@ -107,14 +102,14 @@
 
   ul {
     list-style-type: none;
-    margin: 0 10%;
+    margin: 0 $progress-side-margin;
     @include small {
       margin: 0 0%;
     }
     padding: 0;
   }
   ul li {
-    margin-bottom: 4px;
+    margin-bottom: 3px;
     padding: 0;
     background: rgba(0, 0, 0, 0.04);
   }
@@ -127,16 +122,16 @@
   margin: 0; padding: 0;
   }
   .title {
-    width: 30%;
+    width: 33%;
     float: left;
     text-align: center;
-    padding: 3px;
+    padding: 1px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
   }
   .date {
-    width: 70%;
+    width: 67%;
     text-align: right;
   }
 }
@@ -169,10 +164,9 @@
     text-align: right;
 
     p {
-      color: rgba(0, 0, 0, 0.8);
       font-weight: bold;
       font-size: small;
-      padding: 3px;
+      padding: 1px; padding-right: 3px;
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
