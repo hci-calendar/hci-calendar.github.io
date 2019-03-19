@@ -1,11 +1,11 @@
 ---
 layout: default
-title: CG Calendar
-permalink: /cg/
+title: VR Calendar
+permalink: /vr/
 types: "Paper,Poster,Demo,Conference"
 ---
 
-{% include calendar.html
+{% include page.html
   types=page.types
-  data=site.data.cal.cg
+  data=site.data.cal.vr
 %}

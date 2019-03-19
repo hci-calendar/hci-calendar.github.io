@@ -1,11 +1,11 @@
 ---
 layout: default
-title: HCI Calendar
-permalink: /
+title: CG Calendar
+permalink: /cg/
 types: "Paper,Poster,Demo,Conference"
 ---
 
-{% include calendar.html
+{% include page.html
   types=page.types
-  data=site.data.cal.hci
+  data=site.data.cal.cg
 %}

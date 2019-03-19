@@ -1,11 +1,11 @@
 ---
 layout: default
-title: VR Calendar
-permalink: /vr/
+title: HCI Calendar
+permalink: /
 types: "Paper,Poster,Demo,Conference"
 ---
 
-{% include calendar.html
+{% include page.html
   types=page.types
-  data=site.data.cal.vr
+  data=site.data.cal.hci
 %}
