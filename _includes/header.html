@@ -1,19 +1,15 @@
-<section class="page-header">
-  <div class="container header-container">
-    <span class="header-credit">
-      <a class="github-button" href="https://github.com/hci-calendar/hci-calendar.github.io" data-show-count="true" aria-label="Star hci-calendar/hci-calendar.github.io on GitHub">Star</a>
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
-      &nbsp;
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <br />
-      <p>
-      Maintained at <a href="https://github.com/hci-calendar/">github.com/hci-calendar</a>
-      </p>
-    </span>
+<section class="section section-header">
+  <div class="container container-header">
     <span class="header-links">
       {%- for item in site.links -%}
       <a href="{{site.url}}{{item.link}}">{{item.name}}</a>
       {%- endfor -%}
+    </span>
+    <span class="header-buttons">
+      <a class="github-button" href="https://github.com/hci-calendar/hci-calendar.github.io" data-show-count="true" aria-label="Star hci-calendar/hci-calendar.github.io on GitHub">Star</a>
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+      &nbsp;
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </span>
   </div>
 </section>
