@@ -2,6 +2,24 @@
   long: ACM CHI Conference on Human Factors in Computing Systems
   years:
   -
+    year: 2020
+    date: "2020-04-25"
+    url : https://chi2020.acm.org/
+    info: Hawaii, USA
+    submissions:
+    -
+      type: Paper
+      date: "2019-09-13"
+    -
+      type: alt.CHI
+      date: "TBA"
+    -
+      type: LBW (Poster)
+      date: "TBA"
+    -
+      type: Demo
+      date: "TBA"
+  -
     year: 2019
     date: "2019-05-04"
     url : https://chi2019.acm.org/
