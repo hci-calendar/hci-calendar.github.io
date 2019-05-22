@@ -27,7 +27,50 @@
 body {
   color: $body-text-color;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #fff;
+  background: $background-color-secondary;
+}
+
+a {
+  color: $body-link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.section {
+  margin: 0;
+  padding: 20px;
+}
+.section-header {
+  padding: 0;
+  text-align: left;
+  background: $background-color;
+}
+.section-title {
+  text-align: center;
+  background: $background-color;
+  h1 {
+    font-size: 3rem;
+    padding: 0.5em;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0 15% 0 15%;
+  }
+  li {
+    display: inline-block;
+    margin: 0.1em 0.5em 0.1em 0.5em;
+    white-space: nowrap;
+  }
+  p {font-size: small;}
+}
+.section-month {
+  background: $background-color;
+}
+.section-conference {
+  background: $background-color-secondary;
 }
 
 .container {
@@ -52,47 +95,24 @@ body {
     font-size: 0.95rem;
   }
 }
-
-a {
-  color: $body-link-color;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-.page-header {
-  color: #999;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-
-  .header-container {
-    padding: 0.3em 1em;
-    display: table;
-  }
-  .header-credit {
-    margin: 0.3em 0.2em;
-    display: table-cell;
-    a {
-      color: #999;
-      text-decoration: underline;
-    }
-    p {
-      font-size: 0.9em;
-      margin: 0;
-    }
+.container-header {
+  padding: 0.3em 1em;
+  display: table;
+  border-bottom: 1px solid $underline-border-color;
+  a {
+    text-decoration: none;
+    margin: 0 0.3em;
   }
   .header-links {
     padding: 0.1em;
-    font-weight: bold;
-    text-align: right;
+    text-align: left;
     vertical-align: top;
     display: table-cell;
-    a {
-      margin: 0 0.3em;
-      color: #999;
-    }
+  }
+  .header-buttons {
+    margin: 0.3em 0.2em;
+    text-align: right;
+    display: table-cell;
   }
 }
 
@@ -111,16 +131,10 @@ a {
     margin-top: 0;
   }
 
-  img {
-    max-width: 100%;
-    margin: 10px;
-  }
-
   h1, h2, h3, h4, h5, h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
-    color: $section-headings-color;
   }
 }
 
@@ -140,15 +154,6 @@ a {
   @include small {
     font-size: 0.9rem;
   }
-}
-
-.site-footer-owner {
-  display: block;
-  font-weight: bold;
-}
-
-.site-footer-credits {
-  color: $blockquote-text-color;
 }
 
 @import "calendar";

@@ -4,6 +4,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 # SITE
 title: HCI Calendar
+description: Calendar of submission deadlines and conference dates for HCI and related conferences
+message: >-
+  Please check corrent information on the conference website.<br/>
+  Welcome to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>
+keywords: >-
+  HCI Calendar,
+  HCI, Human Computer Interaction,
+  VR, Virtual Reality
 copyright: "Copyright (C) HCI Calendar. All rights reserved."
 
 # ALL Calendar Links
@@ -19,7 +27,7 @@ links:
 #    link: /cg/
 
 # SEO
-google_analytics: UA-80597905-1
+google_analytics: UA-80597905-2
 
 # INCLUDE PAGES
 include: ['_pages']

@@ -4,22 +4,20 @@ $large-container-width: 47em !default;
 $medium-container-width: 35em !default;
 $medium-breakpoint: 33em !default;
 
-// Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #35AA57 !default;
-$header-bg-color-secondary: #1557B0 !default;
+// Color
+$base-hue: 30;
+$base-sat: 50%;
+$progress-bar-color: hsl($base-hue, $base-sat, 80%) !default;
+$underline-border-color: rgba(0, 0, 0, 0.2) !default;
+
+// Background
+$background-color: hsl($base-hue, $base-sat, 90%) !default;
+$background-color-secondary: white !default;
 
 // Text
-$section-headings-color: #303030 !default;
-$body-text-color: #40484b !default;
-$body-link-color: #1e6bb8 !default;
-$blockquote-text-color: #819198 !default;
+$body-text-color: #4e4840 !default;
+$body-link-color: hsl($base-hue, $base-sat, 35%) !default;
+$highlight-color: hsl($base-hue, 10%, 35%) !default;
 
-// Code
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
-
-// Borders
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+// Size
+$progress-side-margin: 8% !default;

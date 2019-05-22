@@ -31,7 +31,7 @@
     {%- assign trydateparse = year.date | date: "%-m" -%}
     <li>
       <ul>
-        <li class="title title-conference">Conference</li>
+        <li class="title">Conference</li>
         <li class="date">
           {%- if trydateparse != year.date -%} <!--valid format-->
           <div class="progressbar jsdateupdate" deadline="{{year.date}}" conference="{{year.date}}">

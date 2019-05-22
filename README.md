@@ -1,12 +1,12 @@
 # HCI Calendar
 
-Submission and conference calendars of HCI and related fields.
+Submission calendars of HCI and related fields.
 
 Currently, this site provides calendars of these fields; **HCI**, **VR**.
 
 ## Updating information
 
-It's very welcome to commit new information to this calendar.
+It's very welcome to update new information.
 
 ### Best and quickest way
 
@@ -18,8 +18,7 @@ It's very welcome to commit new information to this calendar.
 ### If not familiar with Git
 
 - Comment on [this issue #3](https://github.com/hci-calendar/hci-calendar.github.io/issues/3)
-- Ask me on [Twitter](https://twitter.com/masaogata)
-
+- Email to [a maintainer](http://masaogata.com/)
 
 ## Editing
 
