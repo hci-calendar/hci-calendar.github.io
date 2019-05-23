@@ -314,6 +314,24 @@
   long: ACM International Conference on Interactive Surfaces and Spaces
   years:
   -
+    year: 2019
+    date: "2019-11-10"
+    url : "https://iss.acm.org/2019/"
+    info: "--% - Daejeon, Korea"
+    submissions:
+    -
+      type: Papers and Notes (Abstract Deadline)
+      date: "2019-06-28"
+    -
+      type: Papers and Notes (Full Submissions)
+      date: "2019-07-05"
+    -
+      type: Demo
+      date: "2019-??-??"
+    -
+      type: Poster
+      date: "2019-??-??"
+  -
     year: 2018
     date: "2018-11-25"
     url : http://iss.acm.org/2018/
