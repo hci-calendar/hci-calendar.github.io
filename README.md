@@ -22,6 +22,11 @@ It's very welcome to update new information.
 
 ## Editing
 
+First, plz setup `bundler` as follows:
+- `gem install bundler`
+- `bundle install --path vendor/bundle`
+- `bundle exec jekyll serve`
+
 You can add new functions by editing `_includes` directory in accordance of [Jekyll](https://jekyllrb.com/) format.
 
 CSS files are placed at `_sass` directory.
