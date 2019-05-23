@@ -25,6 +25,8 @@ It's very welcome to update new information.
 First, plz setup `bundler` as follows:
 - `gem install bundler`
 - `bundle install --path vendor/bundle`
+
+Then, start jekyll.
 - `bundle exec jekyll serve`
 
 You can add new functions by editing `_includes` directory in accordance of [Jekyll](https://jekyllrb.com/) format.
