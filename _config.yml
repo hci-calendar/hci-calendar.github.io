@@ -32,6 +32,9 @@ google_analytics: UA-80597905-2
 # INCLUDE PAGES
 include: ['_pages']
 
+# EXCLUDE GEMFILE
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
+
 # SETTING
 markdown: kramdown
 
