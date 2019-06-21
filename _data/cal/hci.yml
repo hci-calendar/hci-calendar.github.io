@@ -170,10 +170,7 @@
       type: E-Tech (Demo)
       date: "2018-07-01"
     -
-      type: Technical Brief (Short Paper)
-      date: "2018-08-26"
-    -
-      type: Poster
+      type: Technical Brief and Poster
       date: "2018-08-26"
 
 - name: CSCW
@@ -244,6 +241,21 @@
 - name: IUI
   long: ACM International Conference on Intelligent User Interfaces
   years:
+  -
+    year: 2020
+    date: "2020-03-18"
+    url : http://iui.acm.org/2020/
+    info: Cagliari, Italy
+    submissions:
+    -
+      type: Paper
+      date: "2019-10-01"
+    -
+      type: Poster
+      date: "TBA"
+    -
+      type: Demo
+      date: "TBA"
   -
     year: 2019
     date: "2019-03-17"
@@ -320,17 +332,14 @@
     info: "--% - Daejeon, Korea"
     submissions:
     -
-      type: Papers and Notes (Abstract Deadline)
+      type: Papers and Notes
       date: "2019-06-28"
     -
-      type: Papers and Notes (Full Submissions)
-      date: "2019-07-05"
-    -
       type: Demo
-      date: "2019-??-??"
+      date: "2019-07-31"
     -
       type: Poster
-      date: "2019-??-??"
+      date: "2019-07-31"
   -
     year: 2018
     date: "2018-11-25"
@@ -428,10 +437,22 @@
   long: International Conference on Human-Agent Interaction
   years:
   -
+    year: 2019
+    date: "2019-10-06"
+    url : http://hai-conference.net/hai2019/
+    info: Kyoto, Japan
+    submissions:
+    -
+      type: Paper
+      date: "2019-05-14"
+    -
+      type: Poster
+      date: "2019-07-16"
+  -
     year: 2018
     date: "2018-12-15"
     url : http://hai-conference.net/hai2018/
-    info: --%
+    info: Southampton, UK
     submissions:
     -
       type: Paper
@@ -446,6 +467,21 @@
 - name: TEI
   long: International Conference on Tangible, Embedded and Embodied Interactions
   years:
+  -
+    year: 2020
+    date: "2020-02-09"
+    url : https://tei.acm.org/2020/
+    info: Sydney, Australia
+    submissions:
+    -
+      type: Paper
+      date: "2019-08-03"
+    -
+      type: WiP (Poster)
+      date: "2019-10-05"
+    -
+      type: Art Track (Demo)
+      date: "2019-10-05"
   -
     year: 2019
     date: "2019-03-17"
