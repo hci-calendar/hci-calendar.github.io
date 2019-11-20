@@ -563,8 +563,29 @@
       type: Demo
       date: "2019-04-08"
 
+- name: Ubicomp
+  long: IFIP TC.13 International Conference on Human-Computer Interaction
+  years:
+  -
+    year: 2020
+    date: "2019-09-12"
+    url : http://ubicomp.org/ubicomp2020/
+    info: Cancun, Mexico
+    submissions:
+    -
+      type: Full Paper
+      date: "2019-08-15"
+    -
+      type: Full Paper
+      date: "2019-11-15"
+    -
+      type: Full Paper
+      date: "2020-02-15"
+    -
+      type: Full Paper
+      date: "2020-05-14"
 
-#   IDC, SUI, HRI, TVX, Ubicomp
+#   IDC, SUI, HRI, TVX
 
 
 # - name: TEMPLATE
