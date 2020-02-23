@@ -60,6 +60,21 @@
   long: ACM Symposium on User Interface Software and Technology
   years:
   -
+    year: 2020
+    date: "2020-10-20"
+    url : https://uist.acm.org/uist2020/
+    info: Minneapolis, Minnesota, USA
+    submissions:
+    -
+      type: Paper
+      date: "2020-04-01"
+    -
+      type: Poster
+      date: "2020-07-08"
+    -
+      type: Demo
+      date: "2020-07-08"
+  -
     year: 2019
     date: "2019-10-20"
     url : https://uist.acm.org/uist2019/
@@ -89,21 +104,6 @@
     -
       type: Demo
       date: "2018-07-11"
-  -
-    year: 2017
-    date: "2017-10-22"
-    url : https://uist.acm.org/uist2017/
-    info: 22.5% - Quebec City, Canada
-    submissions:
-    -
-      type: Paper
-      date: "2017-04-04"
-    -
-      type: Poster
-      date: "2017-07-12"
-    -
-      type: Demo
-      date: "2017-07-12"
 
 - name: SIGGRAPH
   long: International Conference and Exhibition on Computer Graphics and Interactive Techniques
