@@ -2,6 +2,42 @@
   long: ACM CHI Conference on Human Factors in Computing Systems
   years:
   -
+    year: 2021
+    date: "2021-04-25"
+    url : https://chi2021.acm.org
+    info: Yokohama, Japan
+    submissions:
+    -
+      type: Paper
+      date: "2020-09-17"
+    -
+      type: Case Studies
+      date: "2020-10-14"
+    -
+      type: Courses
+      date: "2020-10-14"
+    -
+      type: Doctoral Consortium
+      date: "2020-10-14"
+    -
+      type: Workshop/Symposia
+      date: "2020-10-14"
+    -
+      type: alt.CHI
+      date: "2020-12-15"
+    -
+      type: Late Breaking Work (Poster)
+      date: "2021-01-11"
+    -
+      type: Interactivity/Demos
+      date: "2021-01-11"
+    -
+      type: Student Game Competition
+      date: "2021-01-11"
+    -
+      type: Student Research Competition
+      date: "2021-01-11"
+  -
     year: 2020
     date: "2020-04-25"
     url : https://chi2020.acm.org/
@@ -587,6 +623,36 @@
 
 #   IDC, SUI, HRI, TVX
 
+- name: HRI
+  long: Human-Robot Interaction
+  years:
+  -
+    year: 2020
+    date: "2019-10-01"
+    url : https://humanrobotinteraction.org/2021/
+    info: Boulder, Colorado*
+    submissions:
+    -
+      type: Paper
+      date: "2020-10-05"
+    -
+      type: Workshops and Tutorials
+      date: "2020-10-05"
+    -
+      type: Pioneers
+      date: "2020-11-01"
+    -
+      type: alt.HRI
+      date: "2020-11-30"
+    -
+      type: Late Breaking Work
+      date: "2020-12-14"
+    -
+      type: Exhibition (Demo)
+      date: "2020-12-14"
+    -
+      type: Videos
+      date: "2020-12-14"
 
 # - name: TEMPLATE
 #   long: Full Conference Name
