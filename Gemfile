@@ -1,9 +1,8 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "jekyll"
+gem 'jekyll', '~> 4.0'
 
 group :jekyll_plugins do
-      gem 'jekyll-livereload'
-      gem 'jekyll-feed'
-      gem 'jekyll-redirect-from'
+ gem 'jekyll-feed'
+ gem 'jekyll-redirect-from'
 end
