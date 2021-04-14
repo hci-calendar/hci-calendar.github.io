@@ -1,17 +1,50 @@
-{%- for item in include.data -%}
-<div class="conference">
-<a name="{{item.name}}"></a>
-<h1>{{item.name}}</h1>
-<p class="longname">{{item.long}}</p>
+{%- assign conf = site.data.conference[include.name] -%}
 
-{%- for year in item.years -%}
-<p class="yearitem">
-  <span class="year">{{item.name}} {{year.year}}</span>
-   <a class="link" href="{{year.url}}">{{year.url}}</a>
-   <br>
-  <span class="yearinfo">{{year.info}}</span>
-</p>
-{%- include progress.html year=year -%}
-{%- endfor -%}
+<div class="container bg-white rounded pb-5 mt-5 mb-5">
+  <div class="row">
+    <div class="col-12 p-3 pb-0">
+      <a name="{{ include.name }}"></a>
+      <h1 class="border-bottom mb-1">{{ conf.abbr-name }}</h1>
+      <p class="fw-light lh-1">
+        <small>
+        {{ conf.full-name }}
+        </small>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    {%- assign years = conf.years | slice: 0, 2 -%}
+    {%- for yitem in years -%}
+    <div class="col-12 ps-5 pe-5 mt-4">
+      <h5 class="mb-0 mt-4 d-inline">{{ conf.abbr-name }}&nbsp;{{ yitem.year }}</h5>
+      <p class="fw-light mb-0 lh-1 d-inline">
+        <small><a href="{{ yitem.url }}">{{ yitem.url }}</a></small>
+      </p>
+      <p class="fw-light lh-1">
+        <small>{{ yitem.info }}</small>
+      </p>
+
+      <div class="container">
+      {%- for sitem in yitem.submissions -%}
+        <div class="row">
+          <div class="col">
+            <span class="lh-1 fw-bold"><small>{{ sitem.type }}</small></span>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col">
+            <span class="d-block rounded m-0 p-0 lh-1" style="background: #bbb;">
+              <small>
+                &nbsp;{{ sitem.date }}&nbsp;
+              </small>
+            </span>
+          </div>
+        </div>
+      {%- endfor -%}
+      </div>
+
+    </div>
+    {%- endfor -%}
+  </div>
+
 </div>
-{%- endfor -%}

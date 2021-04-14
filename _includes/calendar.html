@@ -32,7 +32,8 @@
             <div class="row" style="min-height:5.5em;">
               <div class="col-12">
                 {%- for item in items -%}
-                <a href="#{{ item.name }}" style="text-decoration: none;">
+                <a href="#{{ item.name }}" style="text-decoration: none;"
+                   title="{{ item.name }} {{ item.year }}">
                   <span class="rounded d-block bg-primary text-white text-truncate m-1 ml-3 mr-3">
                     {{ item.name }} {{ item.year }}
                   </span>

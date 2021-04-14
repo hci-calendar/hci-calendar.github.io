@@ -1,4 +1,3 @@
-
 module Jekyll
 
   class Test < Liquid::Block
@@ -9,11 +8,8 @@ module Jekyll
 
       @attributes = {}
 
-      print(markup)
-
       markup.scan(Liquid::TagAttributes) do |key, value|
         @attributes[key] = value
-        print(key + " = " + value + "\n")
       end
     end
 
@@ -38,11 +34,7 @@ module Jekyll
       }
     end
 
-    def abbr_in_category(category)
-
-    end
-
-    def conferences_by_month(category, month, type)
+    def conferences_by_month(category, type)
       conferences = @data['category'][category]
 
       items = {}
@@ -60,8 +52,12 @@ module Jekyll
 
       items.each do |key, value|
         if value['date'] != nil
-          month = DateTime.parse(value['date']).strftime("%B")
-          month_items[month].push(value)
+          begin
+            month = DateTime.parse(value['date']).strftime("%B")
+            month_items[month].push(value)
+          rescue ArgumentError => e
+            print(e.message + ": " + value['date'] + "\n")
+          end
         end
       end
 
@@ -69,24 +65,23 @@ module Jekyll
     end
 
     def render(context)
-      context.registers[:test] ||= Hash.new(0)
+      context.registers[:calendar] ||= Hash.new(0)
       @data = context.registers[:site].data
 
       result = []
 
       context.stack do
         if @attributes['func'] == ""
-          category = @attributes['category']
-          context['category'] = category
-          # context['conferences'] = self.conferences_by_category(category)
 
         elsif @attributes['func'] == "month"
-          category = @attributes['category']
-          month = @attributes['month']
-          # type = @attributes['type']
+
+          # get variables from context, not arguments
+          category = context['category']
           type = context['type']
-          # print('type = ' + context['type'] + "\n")
-          context['month_items'] = self.conferences_by_month(category, month, type)
+
+          # write result in context
+          context['month_items'] = self.conferences_by_month(category, type)
+
         end
 
         result << nodelist.map{|n|
@@ -105,4 +100,4 @@ module Jekyll
 
 end
 
-Liquid::Template.register_tag('test', Jekyll::Test)
+Liquid::Template.register_tag('calendar', Jekyll::Test)
