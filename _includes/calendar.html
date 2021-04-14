@@ -1,49 +1,49 @@
 {%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
 
-<div class="container mt-3 mb-3">
-  <div class="row">
-    <div class="col text-center mt-3">
-      <h5>{{ include.title }}</h5>
-    </div>
-  </div>
-
-  <div class="row text-center border border-2 bg-white rounded">
+<div class="container bg-white rounded mt-5 mb-10 pt-3 pb-3">
+  <div class="row justify-content-md-center text-center p-2">
     <!-- arguments for calendar func: month -->
     {%- assign type = include.type -%}
     {%- assign category = include.category -%}
     {% calendar func: month %}
 
+    <div class="col-md-10">
+      <h3 class="p-2">{{ include.title }}</h3>
+    </div>
+
     {%- for row-i in (0..2) -%}
 
-    <div class="col-12">
-      <div class="row">
-        {%- for col-i in (0..3) -%}
-        {%- assign month-i = row-i | times: 4 | plus: col-i -%}
-        {%- assign month = months[month-i] | date: "%B" -%}
-        {%- assign items = month_items[month] -%}
+    <div class="col-md-10">
+      <div class="container p-0">
+        <div class="row">
+          {%- for col-i in (0..3) -%}
+          {%- assign month-i = row-i | times: 4 | plus: col-i -%}
+          {%- assign month = months[month-i] | date: "%B" -%}
+          {%- assign items = month_items[month] -%}
 
-        <div class="col-3">
-          <div class="container p-0">
-            <div class="row" style="background-color: #eee;">
-              <div class="col-12">
-                <small>{{ month }}</small>
+          <div class="col-3">
+            <div class="container p-0">
+              <div class="row" style="background-color: #eee;">
+                <div class="col-12">
+                  <span><small>{{ month }}</small></span>
+                </div>
               </div>
-            </div>
-            <div class="row" style="min-height:5.5em;">
-              <div class="col-12">
-                {%- for item in items -%}
-                <a href="#{{ item.name }}" style="text-decoration: none;"
-                   title="{{ item.name }} {{ item.year }}">
-                  <span class="rounded d-block bg-primary text-white text-truncate m-1 ml-3 mr-3">
-                    {{ item.name }} {{ item.year }}
-                  </span>
-                </a>
-                {%- endfor -%}
+              <div class="row" style="min-height:5.5em;">
+                <div class="col-12 p-1">
+                  {%- for item in items -%}
+                  <a href="#{{ item.key }}" style="text-decoration: none;"
+                     title="{{ item.name }} {{ item.year }}">
+                    <span class="rounded d-block bg-conf text-white text-truncate m-1">
+                      {{ item.name }} {{ item.year }}
+                    </span>
+                  </a>
+                  {%- endfor -%}
+                </div>
               </div>
             </div>
           </div>
+          {%- endfor -%}
         </div>
-        {%- endfor -%}
       </div>
     </div>
     {%- endfor -%}

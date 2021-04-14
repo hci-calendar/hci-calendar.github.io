@@ -1,35 +1,24 @@
-<!-- Conference List in Category and Category List -->
-<div class="container">
+
+<div class="container bg-white rounded p-4">
   <div class="row justify-content-center">
     <div class="col-9 text-center p-3">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            {%- for conf in site.data.category[include.category] -%}
-            <a role="button" class="btn bg-secondary text-white p-0 m-1" href="#{{conf}}" style="text-decoration: none;">
-              &nbsp;{{conf}}&nbsp;
-            </a>
-            {%- endfor -%}
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 border-top mt-2 pt-2">
-        Jump to other categories; <br/>
-        {%- for category in site.data.category -%}
-        <a role="button" class="btn bg-primary text-white p-0 m-1" href="{{ category[0] | relative_url }}" style="text-decoration: none;">
-            &nbsp;{{category[0]}}&nbsp;
-        </a>
-        {%- endfor -%}
-          </div>
-        </div>
-      </div>
+      <h1 class="display-1 text-center mb-4">
+        {{page.title}}
+      </h1>
+      <p class="fw-light text-center">
+        {{ site.message1 }}
+      </p>
+      <p class="fw-light text-center">
+        {{ site.message2 }}
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-9 text-center p-3">
+      {% include list.html category=include.category %}
     </div>
   </div>
 </div>
-
-<!-- testing new conference pane -->
-{% include conference.html name="CHI" %}
 
 <!-- Calendars in Category -->
 {% include calendar.html category=include.category title="Conference" %}
