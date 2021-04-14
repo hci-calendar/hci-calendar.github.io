@@ -105,38 +105,6 @@ module Jekyll
 
   end
 
-  module CalendarFilter
-    def push_conf(input, date)
-      newlist = input.dup
-      newlist.push({'type'=> 'Conference', 'date' => date})
-
-      begin
-        date = Date.parse(date)
-      rescue ArgumentError => e
-        print(e.message + ": " + value['date'] + "\n")
-        date = nil
-      end
-
-      one_year_before = Date.new(date.year - 1, date.month, date.day)
-
-      for item in newlist
-        ratio = 100
-
-        begin
-          idate = Date.parse(item['date'])
-          span = idate - one_year_before
-          ratio = (100 * (span / 365)).to_i
-        rescue ArgumentError => e
-        end
-
-        item['ratio'] = ratio
-
-      end
-
-      newlist
-    end
-  end
 end
 
 Liquid::Template.register_tag('calendar', Jekyll::Test)
-Liquid::Template.register_filter(Jekyll::CalendarFilter)
