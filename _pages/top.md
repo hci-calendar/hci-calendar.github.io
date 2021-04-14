@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HCI Calendar
-permalink: /HCI/
+permalink: /
 ---
 
 {% include page.html category="HCI" %}

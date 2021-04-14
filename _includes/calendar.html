@@ -1,6 +1,6 @@
 {%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
 
-<div class="container">
+<div class="container mt-3 mb-3">
   <div class="row">
     <div class="col text-center mt-3">
       <h5>{{ include.title }}</h5>
@@ -8,14 +8,10 @@
   </div>
 
   <div class="row text-center border border-2 bg-white rounded">
-
-    {% if include.type == nil %}
-      {% assign type = nil %}
-    {% else %}
-      {% assign type = include.type %}
-    {% endif %}
-
-    {% test func: month, category: HCI, type: type %}
+    <!-- arguments for calendar func: month -->
+    {%- assign type = include.type -%}
+    {%- assign category = include.category -%}
+    {% calendar func: month %}
 
     {%- for row-i in (0..2) -%}
 
@@ -50,6 +46,6 @@
       </div>
     </div>
     {%- endfor -%}
-    {% endtest %}
+    {% endcalendar %}
   </div>
 </div>

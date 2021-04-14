@@ -1,11 +1,7 @@
 ---
 layout: default
 title: VR Calendar
-permalink: /vr/
-types: "Paper,Poster,Demo,Conference"
+permalink: /VR/
 ---
 
-{% include page.html
-  types=page.types
-  data=site.data.cal.vr
-%}
+{% include page.html category="VR" %}
