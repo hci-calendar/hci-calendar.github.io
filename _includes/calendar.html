@@ -1,0 +1,55 @@
+{%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+
+<div class="container">
+  <div class="row">
+    <div class="col text-center mt-3">
+      <h5>{{ include.title }}</h5>
+    </div>
+  </div>
+
+  <div class="row text-center border border-2 bg-white rounded">
+
+    {% if include.type == nil %}
+      {% assign type = nil %}
+    {% else %}
+      {% assign type = include.type %}
+    {% endif %}
+
+    {% test func: month, category: HCI, type: type %}
+
+    {%- for row-i in (0..2) -%}
+
+    <div class="col-12">
+      <div class="row">
+        {%- for col-i in (0..3) -%}
+        {%- assign month-i = row-i | times: 4 | plus: col-i -%}
+        {%- assign month = months[month-i] | date: "%B" -%}
+        {%- assign items = month_items[month] -%}
+
+        <div class="col-3">
+          <div class="container p-0">
+            <div class="row" style="background-color: #eee;">
+              <div class="col-12">
+                <small>{{ month }}</small>
+              </div>
+            </div>
+            <div class="row" style="min-height:5.5em;">
+              <div class="col-12">
+                {%- for item in items -%}
+                <a href="#{{ item.name }}" style="text-decoration: none;">
+                  <span class="rounded d-block bg-primary text-white text-truncate m-1 ml-3 mr-3">
+                    {{ item.name }} {{ item.year }}
+                  </span>
+                </a>
+                {%- endfor -%}
+              </div>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+    {%- endfor -%}
+    {% endtest %}
+  </div>
+</div>
