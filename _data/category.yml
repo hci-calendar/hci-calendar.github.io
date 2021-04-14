@@ -1,0 +1,20 @@
+###
+# Please write conference names as same as filenames in `_data/conference/`
+# Duplication over categories is allowed.
+###
+
+HCI:
+- CHI
+- UIST
+- CSCW
+- MobileHCI
+- SIGGRAPH
+- SIGGRAPH_Asia
+
+VR:
+- IEEE_VR
+- VRST
+
+CG:
+- SIGGRAPH
+- SIGGRAPH_Asia

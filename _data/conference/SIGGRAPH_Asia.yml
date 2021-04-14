@@ -1,0 +1,33 @@
+abbr-name: SIGGRAPH Asia
+full-name: ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia
+years:
+-
+  year: 2019
+  date: "2019-11-17"
+  url : https://sa2019.siggraph.org/
+  info: Brisbane, Australia
+  submissions:
+  -
+    type: Technical Paper
+    date: "2019-05-20"
+  -
+    type: E-Tech (Demo)
+    date: "2019-06-17"
+  -
+    type: Technical Brief and Poster
+    date: "2019-08-12"
+-
+  year: 2018
+  date: "2018-12-04"
+  url : https://sa2018.siggraph.org/en/
+  info: Tokyo, Japan
+  submissions:
+  -
+    type: Technical Paper
+    date: "2018-06-05"
+  -
+    type: E-Tech (Demo)
+    date: "2018-07-01"
+  -
+    type: Technical Brief and Poster
+    date: "2018-08-26"

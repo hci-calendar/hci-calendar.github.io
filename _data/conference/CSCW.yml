@@ -1,0 +1,30 @@
+abbr-name: CSCW
+full-name: ACM Conference on Computer-Supported Cooperative Work and Social Computing
+years:
+-
+  year: 2019
+  date: "2019-11-09"
+  url : http://cscw.acm.org/2019/
+  info: --% - Austin, Texas
+  submissions:
+  -
+    type: Paper
+    date: "2019-03-28"
+  -
+    type: Poster
+    date: "2019-06-29"
+  -
+    type: Demo
+    date: "2019-06-17"
+-
+  year: 2018
+  date: "2018-11-03"
+  url : http://cscw.acm.org/2018/
+  info: --% - NYC, USA
+  submissions:
+  -
+    type: Paper
+    date: "2018-04-16"
+  -
+    type: Poster
+    date: "2018-07-01"
