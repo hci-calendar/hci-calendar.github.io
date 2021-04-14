@@ -1,0 +1,18 @@
+abbr-name: Eurohaptics
+full-name: Eurohaptics Conference
+years:
+-
+  year: 2018
+  date: "2018-06-13"
+  url : https://eurohaptics2018.org/
+  info: Pisa, Italy
+  submissions:
+  -
+    type: Paper
+    date: "2018-01-22"
+  -
+    type: WIP (Poster)
+    date: "2018-03-15"
+  -
+    type: Demo
+    date: "2018-04-08"

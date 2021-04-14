@@ -1,0 +1,18 @@
+abbr-name: WHC
+full-name: IEEE World Haptics Conference
+years:
+-
+  year: 2019
+  date: "2019-07-09"
+  url : http://www.worldhaptics2019.org/
+  info: Tokyo, Japan
+  submissions:
+  -
+    type: Technical Paper
+    date: "2019-01-25"
+  -
+    type: WIP (Poster)
+    date: "TBD"
+  -
+    type: Demo
+    date: "TBD"

@@ -1,0 +1,27 @@
+abbr-name: ISWC
+full-name: International Symposium on Wearable Computers
+years:
+-
+  year: 2019
+  date: "2019-09-09"
+  url : http://iswc.net/iswc19/
+  info: --% - London, UK
+  submissions:
+  -
+    type: Paper
+    date: "2019-04-26"
+-
+  year: 2018
+  date: "2018-10-08"
+  url : http://iswc.net/iswc18/
+  info: --% - Singapore
+  submissions:
+  -
+    type: Paper
+    date: "2018-05-18"
+  -
+    type: Poster
+    date: "2018-07-15"
+  -
+    type: Demo
+    date: "2018-07-15"

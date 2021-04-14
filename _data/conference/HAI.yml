@@ -1,0 +1,30 @@
+abbr-name: HAI
+full-name: International Conference on Human-Agent Interaction
+years:
+-
+  year: 2019
+  date: "2019-10-06"
+  url : http://hai-conference.net/hai2019/
+  info: Kyoto, Japan
+  submissions:
+  -
+    type: Paper
+    date: "2019-05-14"
+  -
+    type: Poster
+    date: "2019-07-16"
+-
+  year: 2018
+  date: "2018-12-15"
+  url : http://hai-conference.net/hai2018/
+  info: Southampton, UK
+  submissions:
+  -
+    type: Paper
+    date: "2018-06-20"
+  -
+    type: Poster
+    date: "2018-10-11"
+  -
+    type: Demo
+    date: "2018-10-11"

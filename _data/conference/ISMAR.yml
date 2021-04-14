@@ -1,0 +1,18 @@
+abbr-name: ISMAR
+full-name: IEEE International Symposium on Mixed and Augmented Reality
+years:
+-
+  year: 2018
+  date: "2018-10-16"
+  url : https://www.ismar2018.org/
+  info: Munich, Germany
+  submissions:
+  -
+    type: Paper
+    date: "2018-03-19"
+  -
+    type: Poster
+    date: "2018-07-04"
+  -
+    type: Demo
+    date: "2018-08-05"

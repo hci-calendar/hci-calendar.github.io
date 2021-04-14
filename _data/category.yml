@@ -8,12 +8,26 @@ HCI:
 - UIST
 - CSCW
 - MobileHCI
-- SIGGRAPH
-- SIGGRAPH_Asia
+- DIS
+- AH
+- ACMMM
+- CUI
+- ISS
+- ISWC
+- HRI
+- HAI
+- INTERACT
+- IUI
+- TEI
+- Ubicomp
 
 VR:
 - IEEE_VR
 - VRST
+- WHC
+- ISMAR
+- Haptics_Symposium
+- Eurohaptics
 
 CG:
 - SIGGRAPH

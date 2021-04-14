@@ -1,0 +1,27 @@
+abbr-name: ACMMM
+full-name: ACM International Conference on Multimedia
+years:
+-
+  year: 2019
+  date: "2019-10-21"
+  url : http://www.acmmm.org/2019/
+  info: --% - Nice, France
+  submissions:
+  -
+    type: Paper
+    date: "2019-04-01"
+  -
+    type: Demo and Video
+    date: "2019-05-20"
+-
+  year: 2018
+  date: "2018-10-22"
+  url : http://www.acmmm.org/2018/
+  info: --% - Seoul, Korea
+  submissions:
+  -
+    type: Paper
+    date: "2018-04-08"
+  -
+    type: Technical Demo
+    date: "2018-05-20"

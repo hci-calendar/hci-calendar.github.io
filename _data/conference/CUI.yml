@@ -1,0 +1,21 @@
+abbr-name: CUI
+full-name: Conversational User Interfaces
+years:
+-
+  year: 2021
+  date: "2021-07-27"
+  url : https://www.conversationaluserinterfaces.org/2021/
+  info: Bilbao, Spain
+  submissions:
+  -
+    type: Paper
+    date: "2021-02-26"
+  -
+    type: Provocations
+    date: "2021-04-09"
+  -
+    type: Posters
+    date: "2021-04-09"
+  -
+    type: Demos
+    date: "2021-04-09"

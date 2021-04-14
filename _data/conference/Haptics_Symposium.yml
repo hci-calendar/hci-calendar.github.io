@@ -1,0 +1,37 @@
+abbr-name: Haptics Symposium
+full-name: IEEE Haptics Symposium
+note: Joint with WHC in odd-numbered years
+years:
+-
+  year: 2020
+  date: "2020-03-28"
+  url : http://hapticssymposium.org/haptics2020/
+  info: Washington, DC, USA
+  submissions:
+  -
+    type: Paper
+    date: "TBD"
+  -
+    type: Poster
+    date: "TBD"
+  -
+    type: Demo
+    date: "TBD"
+-
+  year: 2018
+  date: "2018-03-25"
+  url : http://2018.hapticssymposium.org/
+  info: SF, CA, USA
+  submissions:
+  -
+    type: Paper
+    date: "2017-10-22"
+  -
+    type: ToH Poster
+    date: "2018-01-12"
+  -
+    type: WIP Poster
+    date: "2018-01-26"
+  -
+    type: Demo
+    date: "2018-01-26"
