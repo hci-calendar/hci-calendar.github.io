@@ -5,4 +5,39 @@
 $body-bg: #ddd;
 $border-color: #aaa;
 
+.bg-conf {
+  background-color: #0059b3;
+}
+
+.submission .progress {
+  display: block; position: relative;
+}
+
+.submission .progress .progress-bar {
+  text-align: right;
+  position: absolute;
+  float: left;
+    background-color: #0059b3;
+}
+
+.submission .progress .overlay {
+  background: #000;
+  opacity: 0.3;
+}
+
+@media (max-width: 540px) {
+  p, span, a.btn {font-size: 0.7rem;}
+}
+
+@media (max-width: 720px) {
+  p, span, a.btn {font-size: 0.85rem;}
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 860px
+);
+
+
 @import '_sass/bootstrap/bootstrap';

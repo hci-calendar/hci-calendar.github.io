@@ -12,20 +12,25 @@
       </p>
     </div>
   </div>
-  <div class="row">
+
+  <div class="row justify-content-md-center">
     {%- assign years = conf.years | slice: 0, 2 -%}
     {%- for yitem in years -%}
-    <div class="col-12 ps-5 pe-5 mt-4">
-      <h5 class="mb-0 mt-4 d-inline">{{ conf.abbr-name }}&nbsp;{{ yitem.year }}</h5>
-      <p class="fw-light mb-0 lh-1 d-inline">
+    <div class="col-md-10 p-4 mt-2">
+      <h5 class="mb-0 d-inline">
+        {{ conf.abbr-name }}&nbsp;{{ yitem.year }}
+      </h5>
+      <p class="fw-light mb-0 lh-1 d-inline ps-2">
         <small><a href="{{ yitem.url }}">{{ yitem.url }}</a></small>
       </p>
       <p class="fw-light lh-1">
         <small>{{ yitem.info }}</small>
       </p>
 
-      <div class="container">
-      {%- for sitem in yitem.submissions -%}
+      {% assign submissions = yitem.submissions | push_conf: yitem.date %}
+
+      <div class="container p-2 submission">
+      {%- for sitem in submissions -%}
         <div class="row">
           <div class="col">
             <span class="lh-1 fw-bold"><small>{{ sitem.type }}</small></span>
@@ -33,11 +38,16 @@
         </div>
         <div class="row mb-1">
           <div class="col">
-            <span class="d-block rounded m-0 p-0 lh-1" style="background: #bbb;">
-              <small>
-                &nbsp;{{ sitem.date }}&nbsp;
-              </small>
-            </span>
+
+            <div class="progress progress-submission">
+
+              <div class="progress-bar" role="progressbar" style="width: {{sitem.ratio}}%;" aria-valuenow="0" aria-valuemin="{{sitem.ratio}}" aria-valuemax="100">
+                <span class="fw-bold">{{ sitem.date }}&nbsp;</span>
+              </div>
+              <div class="progress-bar overlay" role="progressbar" style="width: 30%;" aria-valuenow="0" aria-valuemin="30" aria-valuemax="100" base="{{ yitem.date }}">
+                <span class="fw-bold">&nbsp;</span>
+              </div>
+            </div>
           </div>
         </div>
       {%- endfor -%}
