@@ -2,8 +2,8 @@ abbr-name: HRI
 full-name: Human-Robot Interaction
 years:
 -
-  year: 2020
-  date: "2019-10-01"
+  year: 2021
+  date: "2021-03-09"
   url : https://humanrobotinteraction.org/2021/
   info: Boulder, Colorado*
   submissions:
@@ -20,7 +20,7 @@ years:
     type: alt.HRI
     date: "2020-11-30"
   -
-    type: Late Breaking Work
+    type: Late Breaking Work (Poster)
     date: "2020-12-14"
   -
     type: Exhibition (Demo)
