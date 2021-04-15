@@ -1,5 +1,5 @@
 ###
-# Please write conference names as same as filenames in `_data/conference/`
+# Please write conference names as same in `_data/conference/*.yml`
 # Duplication over categories is allowed.
 ###
 
