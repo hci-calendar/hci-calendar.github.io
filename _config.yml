@@ -14,8 +14,7 @@ message1: >-
 
 message2: >-
   This site provides last dates posted on our database.<br/>
-  You can help us to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>
-  or post on <a href="#">Google Form</a>.
+  You can help us to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>.
 
 keywords: >-
   HCI Calendar,
@@ -27,7 +26,7 @@ keywords: >-
 copyright: "Copyright (C) HCI Calendar. All rights reserved."
 
 # INCLUDE PAGES
-include: ['_pages']
+include: ['_pages', '_sass']
 
 # EXCLUDE GEMFILE
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'docs']

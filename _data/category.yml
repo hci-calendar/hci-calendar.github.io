@@ -4,30 +4,30 @@
 ###
 
 HCI:
-- CHI
-- UIST
-- CSCW
-- MobileHCI
-- DIS
-- AH
 - ACMMM
+- AH
+- CHI
+- CSCW
 - CUI
+- DIS
+- HAI
+- HRI
+- INTERACT
 - ISS
 - ISWC
-- HRI
-- HAI
-- INTERACT
 - IUI
+- MobileHCI
 - TEI
 - Ubicomp
+- UIST
 
 VR:
+- Eurohaptics
+- Haptics_Symposium
 - IEEE_VR
+- ISMAR
 - VRST
 - WHC
-- ISMAR
-- Haptics_Symposium
-- Eurohaptics
 
 CG:
 - SIGGRAPH
