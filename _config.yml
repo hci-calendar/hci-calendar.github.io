@@ -1,6 +1,6 @@
 # SYSTEM
-url: "https://masaogata.github.io"
-baseurl: "hci-calendar.github.io"
+url: "https://hci-calendar.github.io"
+baseurl: ""
 
 # SITE
 title: HCI Calendar
