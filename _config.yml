@@ -26,7 +26,11 @@ keywords: >-
 copyright: "Copyright (C) HCI Calendar. All rights reserved."
 
 # INCLUDE PAGES
-include: ['_pages', '_sass']
+include: ['_pages']
+
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # EXCLUDE GEMFILE
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor', 'docs']
