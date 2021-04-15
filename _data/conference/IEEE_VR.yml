@@ -1,0 +1,21 @@
+abbr-name: IEEE VR
+full-name: IEEE Conference on Virtual Reality and 3D User Interfaces
+years:
+-
+  year: 2019
+  date: "2019-03-23"
+  url : http://ieeevr.org/2019/
+  info: Osaka, Japan
+  submissions:
+  -
+    type: Journal Paper
+    date: "2018-09-03"
+  -
+    type: Conference Paper
+    date: "2018-11-22"
+  -
+    type: Demo
+    date: "2018-11-19"
+  -
+    type: Poster
+    date: "2019-01-16"

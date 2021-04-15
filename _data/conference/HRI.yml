@@ -1,0 +1,30 @@
+abbr-name: HRI
+full-name: Human-Robot Interaction
+years:
+-
+  year: 2021
+  date: "2021-03-09"
+  url : https://humanrobotinteraction.org/2021/
+  info: Boulder, Colorado*
+  submissions:
+  -
+    type: Paper
+    date: "2020-10-05"
+  -
+    type: Workshops and Tutorials
+    date: "2020-10-05"
+  -
+    type: Pioneers
+    date: "2020-11-01"
+  -
+    type: alt.HRI
+    date: "2020-11-30"
+  -
+    type: Late Breaking Work (Poster)
+    date: "2020-12-14"
+  -
+    type: Exhibition (Demo)
+    date: "2020-12-14"
+  -
+    type: Videos
+    date: "2020-12-14"

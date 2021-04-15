@@ -1,0 +1,33 @@
+abbr-name: VRST
+full-name: ACM Symposium on Virtual Reality Software and Technology
+years:
+-
+  year: 2019
+  date: "2019-11-12"
+  url : https://vrst.acm.org/vrst2019/
+  info: Sydney, Australia
+  submissions:
+  -
+    type: Paper
+    date: "2019-07-19"
+  -
+    type: Poster
+    date: "2019-08-15"
+  -
+    type: Demo
+    date: "2019-08-15"
+-
+  year: 2018
+  date: "2018-11-28"
+  url : https://vrst.acm.org/vrst2018/
+  info: Tokyo, Japan
+  submissions:
+  -
+    type: Paper
+    date: "2018-08-15"
+  -
+    type: Poster
+    date: "2018-09-01"
+  -
+    type: Demo
+    date: "2018-09-01"

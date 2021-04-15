@@ -1,0 +1,48 @@
+abbr-name: UIST
+full-name: ACM Symposium on User Interface Software and Technology
+years:
+-
+  year: 2020
+  date: "2020-10-20"
+  url : https://uist.acm.org/uist2020/
+  info: Minneapolis, Minnesota, USA
+  submissions:
+  -
+    type: Paper
+    date: "2020-04-01"
+  -
+    type: Poster
+    date: "2020-07-08"
+  -
+    type: Demo
+    date: "2020-07-08"
+-
+  year: 2019
+  date: "2019-10-20"
+  url : https://uist.acm.org/uist2019/
+  info: New Orleans, USA
+  submissions:
+  -
+    type: Paper
+    date: "2019-04-05"
+  -
+    type: Poster
+    date: "2019-07-10"
+  -
+    type: Demo
+    date: "2019-07-10"
+-
+  year: 2018
+  date: "2018-10-14"
+  url : https://uist.acm.org/uist2018/
+  info: 21.3% - Berlin, Germany
+  submissions:
+  -
+    type: Paper
+    date: "2018-04-05"
+  -
+    type: Poster
+    date: "2018-07-11"
+  -
+    type: Demo
+    date: "2018-07-11"

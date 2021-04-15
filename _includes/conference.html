@@ -1,17 +1,91 @@
-{%- for item in include.data -%}
-<div class="conference">
-<a name="{{item.name}}"></a>
-<h1>{{item.name}}</h1>
-<p class="longname">{{item.long}}</p>
+{%- assign conf = site.data.conference[include.name] -%}
 
-{%- for year in item.years -%}
-<p class="yearitem">
-  <span class="year">{{item.name}} {{year.year}}</span>
-   <a class="link" href="{{year.url}}">{{year.url}}</a>
-   <br>
-  <span class="yearinfo">{{year.info}}</span>
-</p>
-{%- include progress.html year=year -%}
-{%- endfor -%}
+<div class="container bg-white rounded pb-5 mt-5 mb-5">
+  <div class="row">
+    <div class="col-12 p-3 pb-0">
+      <a name="{{ include.name }}"></a>
+      <h1 class="border-bottom mb-1">{{ conf.abbr-name }}</h1>
+      <p class="fw-light lh-1">
+        <small>
+        {{ conf.full-name }}
+        </small>
+      </p>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center">
+    {%- assign years = conf.years | slice: 0, 2 -%}
+    {%- for yitem in years -%}
+    <div class="col-md-10 p-4 mt-2">
+      <h5 class="mb-0 d-inline">
+        {{ conf.abbr-name }}&nbsp;{{ yitem.year }}
+      </h5>
+      <p class="fw-light mb-0 lh-1 d-inline ps-2">
+        <small><a href="{{ yitem.url }}">{{ yitem.url }}</a></small>
+      </p>
+      <p class="fw-light lh-1">
+        <small>{{ yitem.info }}</small>
+      </p>
+
+      <div class="container p-2 submission">
+      {%- for sitem in yitem.submissions -%}
+
+      {% comment %}<!--
+      Calculate the ratio of days between the submission and conference date.
+      -->{% endcomment %}
+      {% assign date_to = yitem.date | date: "%s" | plus: 0 %}
+      {% assign date_from = sitem.date | date: "%s" | plus: 0 %}
+      {% if date_from == 0 %}
+      {% assign date_from = date_to %}
+      {% endif %}
+      {% assign days = date_to | minus: date_from | divided_by: 86400 %}
+      {%- assign ratio = 365 | minus: days | times: 100 | divided_by: 365 -%}
+
+        <div class="row">
+          <div class="col">
+            <span class="lh-1 fw-bold"><small>{{ sitem.type }}</small></span>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col">
+
+            <div class="progress progress-submission">
+
+              <div class="progress-bar" role="progressbar" style="width: {{ ratio }}%;" aria-valuenow="0" aria-valuemin="{{ ratio }}" aria-valuemax="100">
+                <span class="fw-bold">{{ sitem.date }}&nbsp;</span>
+              </div>
+              <div class="progress-bar overlay" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" base="{{ yitem.date }}">
+                <span class="fw-bold">&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
+
+      {%- assign ratio = 100 -%}
+        <div class="row">
+          <div class="col">
+            <span class="lh-1 fw-bold"><small>Conference</small></span>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col">
+
+            <div class="progress progress-submission">
+
+              <div class="progress-bar" role="progressbar" style="width: {{ ratio }}%;" aria-valuenow="0" aria-valuemin="{{ ratio }}" aria-valuemax="100">
+                <span class="fw-bold">{{ yitem.date }}&nbsp;</span>
+              </div>
+              <div class="progress-bar overlay" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" base="{{ yitem.date }}">
+                <span class="fw-bold">&nbsp;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    {%- endfor -%}
+  </div>
+
 </div>
-{%- endfor -%}

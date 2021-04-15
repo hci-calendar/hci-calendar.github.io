@@ -1,3 +1,27 @@
-{%- for item in include.data -%}
-<li><a href="#{{item.name}}">{{item.name}}</a></li>
-{%- endfor -%}
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      {%- for conf in site.data.category[include.category] -%}
+      <a role="button" class="btn bg-secondary text-white p-0 m-1" href="#{{ conf }}" style="text-decoration: none;">
+        &nbsp;{{ site.data.conference[conf].abbr-name }}&nbsp;
+      </a>
+      {%- endfor -%}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 border-top mt-3 pt-3">
+      <span>
+        {%- for category in site.data.category -%}
+        {%- if category[0] != "HCI" -%}
+        {%- assign link = category[0] -%}
+        {%- else -%}
+        {%- assign link = "" -%}
+        {%- endif -%}
+        <a role="button" class="btn bg-primary text-white p-0 m-1" href="{{ link | absolute_url }}" style="text-decoration: none;">
+            &nbsp;{{ category[0] }}&nbsp;
+        </a>
+        {%- endfor -%}
+      </span>
+    </div>
+  </div>
+</div>

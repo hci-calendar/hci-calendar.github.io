@@ -1,0 +1,33 @@
+abbr-name: DIS
+full-name: ACM SIGCHI Conference on Designing Interactive Systems
+years:
+-
+  year: 2019
+  date: "2019-06-23"
+  url : https://dis2019.com/
+  info: San Diego, California
+  submissions:
+  -
+    type: Paper
+    date: "2019-01-15"
+  -
+    type: PWiP (Poster)
+    date: "2019-02-08"
+  -
+    type: Demo
+    date: "2019-02-08"
+-
+  year: 2018
+  date: "2018-06-09"
+  url : http://dis2018.org/
+  info: 22% - Hong Kong, China
+  submissions:
+  -
+    type: Paper
+    date: "2018-01-08"
+  -
+    type: PWiP (Poster)
+    date: "2018-03-12"
+  -
+    type: Demo
+    date: "2018-03-12"

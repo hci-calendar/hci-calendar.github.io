@@ -1,0 +1,48 @@
+abbr-name: ISS
+full-name: ACM International Conference on Interactive Surfaces and Spaces
+years:
+-
+  year: 2019
+  date: "2019-11-10"
+  url : "https://iss.acm.org/2019/"
+  info: "--% - Daejeon, Korea"
+  submissions:
+  -
+    type: Papers and Notes
+    date: "2019-06-28"
+  -
+    type: Demo
+    date: "2019-07-31"
+  -
+    type: Poster
+    date: "2019-07-31"
+-
+  year: 2018
+  date: "2018-11-25"
+  url : http://iss.acm.org/2018/
+  info: --% - Tokyo, Japan
+  submissions:
+  -
+    type: Paper
+    date: "2018-06-29"
+  -
+    type: Poster
+    date: "2018-08-03"
+  -
+    type: Demo
+    date: "2018-08-24"
+-
+  year: 2017
+  date: "2017-10-17"
+  url : http://iss2017.acm.org/
+  info: 27% - Brighton, UK
+  submissions:
+  -
+    type: Paper
+    date: "2017-06-28"
+  -
+    type: Poster
+    date: "2017-07-19"
+  -
+    type: Demo
+    date: "2017-07-19"

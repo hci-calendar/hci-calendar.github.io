@@ -1,11 +1,7 @@
 ---
 layout: default
 title: HCI Calendar
-permalink: /
-types: "Paper,Poster,Demo,Conference"
+permalink: /HCI/
 ---
 
-{% include page.html
-  types=page.types
-  data=site.data.cal.hci
-%}
+{% include page.html category="HCI" %}

@@ -1,0 +1,33 @@
+abbr-name: MobileHCI
+full-name: International Conference on Human-Computer Interaction with Mobile Devices and Services
+years:
+-
+  year: 2019
+  date: "2019-10-01"
+  url : https://mobilehci.acm.org/2019/
+  info: --% - Taipei, Taiwan
+  submissions:
+  -
+    type: Paper
+    date: "2019-02-01"
+  -
+    type: Poster (LBW)
+    date: "2019-05-24"
+  -
+    type: Demo
+    date: "2019-05-24"
+-
+  year: 2018
+  date: "2018-09-03"
+  url : https://mobilehci.acm.org/2018/
+  info: --% - Barcelona, Spain
+  submissions:
+  -
+    type: Paper
+    date: "2018-02-09"
+  -
+    type: Poster
+    date: "2018-05-16"
+  -
+    type: Demo
+    date: "2018-05-16"

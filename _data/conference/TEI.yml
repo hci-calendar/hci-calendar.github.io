@@ -1,0 +1,48 @@
+abbr-name: TEI
+full-name: International Conference on Tangible, Embedded and Embodied Interactions
+years:
+-
+  year: 2020
+  date: "2020-02-09"
+  url : https://tei.acm.org/2020/
+  info: Sydney, Australia
+  submissions:
+  -
+    type: Paper
+    date: "2019-08-03"
+  -
+    type: WiP (Poster)
+    date: "2019-10-05"
+  -
+    type: Art Track (Demo)
+    date: "2019-10-05"
+-
+  year: 2019
+  date: "2019-03-17"
+  url : https://tei.acm.org/2019/
+  info: Tempe, AZ, USA
+  submissions:
+  -
+    type: Paper
+    date: "2018-08-08"
+  -
+    type: WiP (Poster)
+    date: "2018-11-14"
+  -
+    type: Art Track (Demo)
+    date: "2018-11-07"
+-
+  year: 2018
+  date: "2018-03-18"
+  url : https://tei.acm.org/2018/
+  info: 28% - Stockholm, Sweden
+  submissions:
+  -
+    type: Paper
+    date: "2017-08-02"
+  -
+    type: WiP (Poster)
+    date: "2017-11-04"
+  -
+    type: Art Track (Demo)
+    date: "2017-11-04"

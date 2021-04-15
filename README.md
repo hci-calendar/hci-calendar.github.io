@@ -1,34 +1,44 @@
 # HCI Calendar
 
-Submission calendars of HCI and related fields.
+[HCI Calendar](https://hci-calendar.github.io) helps you to find the timely conference for your research.
 
-Currently, this site provides calendars of these fields; **HCI**, **VR**.
+This website is written in Jekyll and hosted on Github Pages.
 
-## Updating information
+# For contributors
 
-It's very welcome to update new information.
+Thank you for updating conference information.
 
-### Best and quickest way
+Conference data is stored as `_data/conference/*.yml`, where `*` is an abbreviation of each conference.
 
-1. Fork the repository
-1. Update `_data/cal/*.yml`
-1. Make sure information is enough and correct
-1. Send a pull request
+Please append new conference in `_data/category.yml` when you add it. Then, the conference will appear on the website.
 
-### If not familiar with Git
+### Sample format of conference data
 
-- Comment on [this issue #3](https://github.com/hci-calendar/hci-calendar.github.io/issues/3)
-- Email to [a maintainer](http://masaogata.com/)
+```
+abbr-name: CONF
+full-name: Full Conference Name
+years:
+-
+  year: 2020
+  date: "2020-05-01"
+  url : www.conference.org/conf2020/
+  info: --%, Place name
+  submissions:
+  -
+    type: Paper
+    date: "2019-10-01"
+  -
+    type: Poster
+    date: "2019-12-01"
+  -
+    type: Demo
+    date: "2020-01-01"
+```
 
-## Editing
+# History
 
-First, plz setup `bundler` as follows:
-- `gem install bundler`
-- `bundle install --path vendor/bundle`
-
-Then, start jekyll.
-- `bundle exec jekyll serve`
-
-You can add new functions by editing `_includes` directory in accordance of [Jekyll](https://jekyllrb.com/) format.
-
-CSS files are placed at `_sass` directory.
+- March 19, 2019
+  - Site open
+- April 15, 2021
+  - New design with Bootstrap v5
+  - Data file separated

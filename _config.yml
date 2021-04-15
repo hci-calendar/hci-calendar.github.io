@@ -1,43 +1,34 @@
 # SYSTEM
 url: "https://hci-calendar.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 
 # SITE
 title: HCI Calendar
-description: Calendar of submission deadlines and conference dates for HCI and related conferences
-message: >-
-  Please check corrent information on the conference website.<br/>
-  Welcome to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>
+
+description: >-
+  HCI Calendar helps you to find the timely conference for your research.
+
+message1: >-
+  Please check corrent information on the conference website.
+
+message2: >-
+  This site provides last dates posted on our database.<br/>
+  You can help us to edit on <a href="https://github.com/hci-calendar/hci-calendar.github.io">GitHub</a>.
+
 keywords: >-
   HCI Calendar,
+  academic, research, technology, computer science,
   HCI, Human Computer Interaction,
-  VR, Virtual Reality
+  VR, Virtual Reality,
+  CG, Computer graphics,
+
 copyright: "Copyright (C) HCI Calendar. All rights reserved."
-
-# ALL Calendar Links
-links:
-  -
-    name: HCI
-    link: /
-  -
-    name: VR
-    link: /vr/
-#  -
-#    name: CG
-#    link: /cg/
-
-# SEO
-google_analytics: UA-80597905-2
 
 # INCLUDE PAGES
 include: ['_pages']
 
-# EXCLUDE GEMFILE
-exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
-
-# SETTING
-markdown: kramdown
+sass:
+  sass_dir: ./_sass
 
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from

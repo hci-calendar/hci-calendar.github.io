@@ -1,0 +1,34 @@
+###
+# Please write conference names as same in `_data/conference/*.yml`
+# Duplication over categories is allowed.
+###
+
+HCI:
+- ACMMM
+- AH
+- CHI
+- CSCW
+- CUI
+- DIS
+- HAI
+- HRI
+- INTERACT
+- ISS
+- ISWC
+- IUI
+- MobileHCI
+- TEI
+- Ubicomp
+- UIST
+
+VR:
+- Eurohaptics
+- Haptics_Symposium
+- IEEE_VR
+- ISMAR
+- VRST
+- WHC
+
+CG:
+- SIGGRAPH
+- SIGGRAPH_Asia

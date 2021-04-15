@@ -1,0 +1,33 @@
+abbr-name: AH
+full-name: Augmented Human International Conference
+years:
+-
+  year: 2019
+  date: "2019-03-11"
+  url : https://www.augmented-human.com/
+  info: Reims Champagne-Ardenne, France
+  submissions:
+  -
+    type: Paper
+    date: "2019-01-01"
+  -
+    type: Poster
+    date: "2019-01-01"
+  -
+    type: Demo
+    date: "2019-01-01"
+-
+  year: 2018
+  date: "2018-02-07"
+  url : http://www.sigah.org/AH2018/
+  info: --% - Seoul, Korea
+  submissions:
+  -
+    type: Paper
+    date: "2017-11-01"
+  -
+    type: Poster
+    date: "2017-11-01"
+  -
+    type: Demo
+    date: "2017-11-01"

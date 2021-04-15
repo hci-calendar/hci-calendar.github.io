@@ -1,0 +1,48 @@
+abbr-name: IUI
+full-name: ACM International Conference on Intelligent User Interfaces
+years:
+-
+  year: 2020
+  date: "2020-03-18"
+  url : http://iui.acm.org/2020/
+  info: Cagliari, Italy
+  submissions:
+  -
+    type: Paper
+    date: "2019-10-01"
+  -
+    type: Poster
+    date: "TBA"
+  -
+    type: Demo
+    date: "TBA"
+-
+  year: 2019
+  date: "2019-03-17"
+  url : http://iui.acm.org/2019/
+  info: LA, USA
+  submissions:
+  -
+    type: Paper
+    date: "2018-10-01"
+  -
+    type: Poster
+    date: "2018-12-21"
+  -
+    type: Demo
+    date: "2018-12-21"
+-
+  year: 2018
+  date: "2018-03-07"
+  url : http://iui.acm.org/2018/
+  info: 23% - Tokyo, Japan
+  submissions:
+  -
+    type: Paper
+    date: "2017-10-01"
+  -
+    type: Poster
+    date: "2017-12-22"
+  -
+    type: Demo
+    date: "2017-12-22"

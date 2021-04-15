@@ -1,0 +1,21 @@
+abbr-name: INTERACT
+full-name: IFIP TC.13 International Conference on Human-Computer Interaction
+years:
+-
+  year: 2019
+  date: "2019-09-02"
+  url : https://interact2019.org/
+  info: Paphos, Cyprus
+  submissions:
+  -
+    type: Full Paper
+    date: "2019-01-14"
+  -
+    type: Short Paper
+    date: "2019-04-08"
+  -
+    type: Interactive Poster
+    date: "2019-04-08"
+  -
+    type: Demo
+    date: "2019-04-08"

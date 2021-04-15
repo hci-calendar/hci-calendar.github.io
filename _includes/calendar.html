@@ -1,0 +1,75 @@
+{%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+
+<div class="container bg-white rounded mt-5 mb-10 pt-3 pb-3">
+  <div class="row justify-content-md-center text-center p-2">
+
+    {%- assign type = include.type -%}
+    {%- assign category = include.category -%}
+    {% assign confs = site.data.category[category] %}
+
+    <div class="col-md-10">
+      <h3 class="p-2">{{ include.title }}</h3>
+    </div>
+
+    {%- for row-i in (0..2) -%}
+
+    <div class="col-md-10">
+      <div class="container p-0">
+        <div class="row">
+          {%- for col-i in (0..3) -%}
+          {%- assign month-i = row-i | times: 4 | plus: col-i -%}
+          {%- assign month = months[month-i] | date: "%B" -%}
+
+          <div class="col-3">
+            <div class="container p-0">
+              <div class="row" style="background-color: #eee;">
+                <div class="col-12">
+                  <span><small>{{ month }}</small></span>
+                </div>
+              </div>
+              <div class="row" style="min-height:5.5em;">
+                <div class="col-12 p-1">
+
+    {%- for conf in confs -%}
+    {% assign confdata = site.data.conference[conf] %}
+    {% capture display_name %}{{confdata.abbr-name}} {{confdata.years[0].year}}
+    {% endcapture %}
+
+    {% if include.type == "Conference" %}
+
+      {% assign s_month =  confdata.years[0].date | date: "%B" %}
+      {% if s_month == month %}
+      <a href="#{{ conf }}" style="text-decoration: none;"
+         title="{{display_name}}">
+        <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
+      </a>
+      {% endif %}
+
+    {% else %}
+
+      {% for submission in confdata.years[0].submissions %}
+      {% assign s_month =  submission.date | date: "%B" %}
+      {% if s_month == month %}
+      {% if submission.type contains include.type %}
+      <a href="#{{ conf }}" style="text-decoration: none;"
+         title="{{ display_name }}">
+        <span class="rounded d-block bg-conf text-white text-truncate m-1">{{display_name}}</span>
+      </a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+
+    {% endif %}
+    {% endfor %}
+
+                </div>
+              </div>
+            </div>
+          </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+</div>

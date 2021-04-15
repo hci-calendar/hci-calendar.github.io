@@ -1,33 +1,33 @@
-{% assign type_list = include.types | split: "," %}
 
-<section class="section section-title">
-  <div class="container">
-    <h1>
-      {{page.title}}
-    </h1>
-    <ul>
-      {% include list.html data=include.data %}
-    </ul>
-    <p>
-      {{ site.message }}
-    </p>
-  </div>
-</section>
-
-<section class="section section-month">
-  <div class="container main-content">
-    <div class="text-area">
-      {% include month.html data=include.data type_list=type_list %}
+<div class="container bg-white rounded p-4">
+  <div class="row justify-content-center">
+    <div class="col-9 text-center p-3">
+      <h1 class="display-1 text-center mt-3 mb-5">
+        {{page.title}}
+      </h1>
+      <p class="fw-light text-center">
+        {{ site.message1 }}
+      </p>
+      <p class="fw-light text-center">
+        {{ site.message2 }}
+      </p>
     </div>
   </div>
-  <div style="clear:both;"></div>
-</section>
-
-<section class="section section-conference">
-  <div class="container main-content">
-    <div class="text-area">
-      {% include conference.html data=include.data %}
+  <div class="row justify-content-center">
+    <div class="col-9 text-center p-3">
+      {% include list.html category=include.category %}
     </div>
   </div>
-  <div style="clear:both;"></div>
-</section>
+</div>
+
+<!-- Calendars in Category -->
+{% include calendar.html category=include.category title="Conference" type="Conference" %}
+{% include calendar.html category=include.category title="Paper submission" type="Paper" %}
+{% include calendar.html category=include.category title="Demo submission" type="Demo" %}
+{% include calendar.html category=include.category title="Poster submission" type="Poster" %}
+
+<!-- Conference Information with submission dates -->
+{%- for item in site.data.category[include.category] -%}
+{%- assign conf = item -%}
+{% include conference.html name=conf %}
+{%- endfor -%}
