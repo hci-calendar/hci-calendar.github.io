@@ -2,7 +2,7 @@
 <div class="container bg-white rounded p-4">
   <div class="row justify-content-center">
     <div class="col-9 text-center p-3">
-      <h1 class="display-1 text-center mb-4">
+      <h1 class="display-1 text-center mt-3 mb-5">
         {{page.title}}
       </h1>
       <p class="fw-light text-center">
@@ -21,7 +21,7 @@
 </div>
 
 <!-- Calendars in Category -->
-{% include calendar.html category=include.category title="Conference" %}
+{% include calendar.html category=include.category title="Conference" type="Conference" %}
 {% include calendar.html category=include.category title="Paper submission" type="Paper" %}
 {% include calendar.html category=include.category title="Demo submission" type="Demo" %}
 {% include calendar.html category=include.category title="Poster submission" type="Poster" %}
