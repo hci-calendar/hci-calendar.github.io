@@ -29,8 +29,7 @@ copyright: "Copyright (C) HCI Calendar. All rights reserved."
 include: ['_pages']
 
 sass:
-  sass_dir: _sass
-  style: :compressed
+  sass_dir: ./_sass
 
 plugins:
   - jekyll-redirect-from
