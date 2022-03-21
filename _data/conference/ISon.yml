@@ -1,0 +1,33 @@
+abbr-name: ISon
+full-name: Interactive Sonification Workshop
+years:
+-
+  year: 2022
+  date: "2022-09-22”
+  url : https://interactive-sonification.org/ISon2022
+  info: --%, Hybrid: Zoom & Delmenhorst, near Bremen, Germany
+  submissions:
+  -
+    type: Paper
+    date: "2022-06-16”
+  -
+    type: Poster
+    date: "2022-06-16”
+  -
+    type: Demo
+    date: "2022-06-16”
+-
+year: 2019
+  date: "2019-11-18”
+  url : https://interactive-sonification.org/ISon2019
+  info: --%, Stockholm, Sweden
+  submissions:
+  -
+    type: Paper
+    date: "2019-09-22”
+  -
+    type: Poster
+    date: "2019-09-22”
+  -
+    type: Demo
+    date: "2019-09-22”
